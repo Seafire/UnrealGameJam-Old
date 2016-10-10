@@ -1,0 +1,1482 @@
+﻿Log file open, 10/10/16 18:12:50
+LogInit:Display: Running engine for game: UnrealGameJam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-449223145) SRandInit(-449223144).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075848
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.10-17.12.50:877][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.10-17.12.50:877][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.10-17.12.50:888][  0]LogInit: Computer: DESKTOP-N6TRJQS
+[2016.10.10-17.12.50:888][  0]LogInit: User: Conor
+[2016.10.10-17.12.50:888][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.10-17.12.50:888][  0]LogInit: High frequency timer resolution =3.312791 MHz
+[2016.10.10-17.12.50:889][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.10-17.12.50:889][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.10-17.12.50:889][  0]LogMemory: Process Physical Memory: 190.64 MB used, 190.64 MB peak
+[2016.10.10-17.12.50:889][  0]LogMemory: Process Virtual Memory: 195.24 MB used, 195.24 MB peak
+[2016.10.10-17.12.50:889][  0]LogMemory: Physical Memory: 4474.25 MB used, 8145.47 MB total
+[2016.10.10-17.12.50:889][  0]LogMemory: Virtual Memory: 553.30 MB used, 134217728.00 MB total
+[2016.10.10-17.12.50:914][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.10.10-17.12.51:250][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.10-17.12.51:283][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2016.10.10-17.12.51:283][  0]LogD3D11RHI:       1505/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.10-17.12.51:284][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.10-17.12.51:284][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.10-17.12.51:284][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.10-17.12.51:289][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.10-17.12.51:289][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.10-17.12.51:289][  0]LogWindows: EnumDisplayDevices:
+[2016.10.10-17.12.51:289][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2016.10.10-17.12.51:289][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.10-17.12.51:289][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.10-17.12.51:289][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.10.10-17.12.51:289][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2016.10.10-17.12.51:289][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2016.10.10-17.12.51:289][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.10.10-17.12.51:289][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
+[2016.10.10-17.12.51:302][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.10-17.12.51:318][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.10-17.12.51:319][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (D:/Repositories/UnrealGameJam/UnrealGameJam/Intermediate/Shaders/WorkingDirectory/11980/).
+[2016.10.10-17.12.51:319][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Conor/AppData/Local/Temp/UnrealShaderWorkingDir/4474BCF44A184F881745918CE4A28C16/'.
+[2016.10.10-17.12.51:319][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.10-17.12.52:279][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.10-17.12.52:289][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.10-17.12.52:298][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.10-17.12.52:308][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.10-17.12.52:316][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.10-17.12.52:324][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.10-17.12.52:332][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.10-17.12.52:339][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.10-17.12.52:346][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.10-17.12.52:353][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.10-17.12.52:361][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.10-17.12.52:375][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.10-17.12.52:375][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.10-17.12.52:376][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.10-17.12.52:398][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.10-17.12.52:408][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.10-17.12.52:419][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.10-17.12.52:431][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.10-17.12.52:443][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.10-17.12.52:444][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.10-17.12.52:561][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.10-17.12.52:614][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.10-17.12.52:614][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.10-17.12.52:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repositories/UnrealGameJam/UnrealGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.10-17.12.52:614][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.10-17.12.52:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repositories/UnrealGameJam/UnrealGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.10-17.12.52:614][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.10-17.12.52:637][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.10-17.12.52:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Conor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.10-17.12.52:890][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.10-17.12.52:890][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.10-17.12.53:037][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.10-17.12.53:037][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.10-17.12.53:037][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.10-17.12.53:252][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.10.10-17.12.53:271][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.016027 seconds
+[2016.10.10-17.12.53:275][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.10-17.12.53:275][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.10-17.12.53:275][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.10-17.12.53:283][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.10-17.12.53:445][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.10-17.12.53:445][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.10-17.12.54:035][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.10-17.12.54:251][  0]SourceControl: Info Source control is disabled
+[2016.10.10-17.12.54:289][  0]SourceControl: Info Source control is disabled
+[2016.10.10-17.12.54:298][  0]SourceControl: Info Source control is disabled
+[2016.10.10-17.12.54:306][  0]SourceControl: Info Source control is disabled
+[2016.10.10-17.12.54:527][  0]LogEngine: Initializing Engine...
+[2016.10.10-17.12.54:527][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.10-17.12.54:528][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.10-17.12.54:658][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.10-17.12.54:670][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.12.54:681][  0]LogInit: FAudioDevice initialized.
+[2016.10.10-17.12.54:712][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.10-17.12.54:718][  0]LogInit: Texture streaming: Enabled
+[2016.10.10-17.12.54:742][  0]LogInit: Transaction tracking system initialized
+[2016.10.10-17.12.54:766][  0]BlueprintLog: New page: Editor Load
+[2016.10.10-17.12.54:838][  0]LocalizationService: Info Localization service is disabled
+[2016.10.10-17.12.54:898][  0]LogConsoleResponse:Display: 
+[2016.10.10-17.12.54:986][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.10-17.12.54:986][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.10-17.12.55:078][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/' took 0.01s
+[2016.10.10-17.12.55:078][  0]SourceControl: Info Source control is disabled
+[2016.10.10-17.12.55:078][  0]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.10-17.12.55:078][  0]LogEditorServer:Warning: Can't find file 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.10.10-17.12.55:078][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.10-17.12.55:114][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.341ms to complete.
+[2016.10.10-17.12.55:114][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.036
+[2016.10.10-17.12.55:229][  0]LogCollectionManager: Loaded 0 collections in 0.001888 seconds
+[2016.10.10-17.12.55:268][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Collections/' took 0.01s
+[2016.10.10-17.12.55:268][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/Developers/Conor/Collections/' took 0.01s
+[2016.10.10-17.12.55:268][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/Collections/' took 0.01s
+[2016.10.10-17.12.55:268][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.10-17.12.55:276][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2047 classes and 369 folders.
+[2016.10.10-17.12.55:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.10-17.12.55:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.10-17.12.55:280][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.10-17.12.55:285][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.10-17.12.55:320][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.10-17.12.55:324][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.10-17.12.55:337][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.10-17.12.55:342][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.10-17.12.55:368][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.10-17.12.55:368][  0]LogLoad: Full Startup: 5.28 seconds (BP compile: 0.00 seconds)
+[2016.10.10-17.12.55:368][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.10-17.12.55:377][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.10-17.12.55:377][  0]LogOcInput: OculusInput pre-init called
+[2016.10.10-17.12.55:396][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.10-17.12.55:564][  0]LogRenderer: Reallocating scene render targets to support 1212x624 (Frame:2).
+[2016.10.10-17.12.55:688][  2]LogAssetRegistry: Asset discovery search completed in 2.4578 seconds
+[2016.10.10-17.12.55:688][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.10-17.12.55:688][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2016.10.10-17.12.58:942][244]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.10.10-17.13.18:339][158]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.13.18:404][158]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.10-17.13.18:404][158]LightingResults: New page: Lighting Build
+[2016.10.10-17.13.18:407][158]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2016.10.10-17.13.18:408][158]LoadErrors: New page: Loading map: Test.umap
+[2016.10.10-17.13.18:408][158]MapCheck: New page: Map Check
+[2016.10.10-17.13.18:408][158]LightingResults: New page: Lighting Build
+[2016.10.10-17.13.18:433][158]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.10-17.13.18:459][158]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.10-17.13.18:511][158]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.661ms to complete.
+[2016.10.10-17.13.18:511][158]LogFileHelpers: Loading map 'Test' took 0.108
+[2016.10.10-17.13.20:456][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.13.20:456][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.13.20:456][381]PIE: New page: PIE session: Test (10 Oct 2016 18:13:20)
+[2016.10.10-17.13.20:456][381]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.13.20:480][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023600s)
+[2016.10.10-17.13.20:481][381]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.13.20:481][381]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2016.10.10-17.13.20:481][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.024637s)
+[2016.10.10-17.13.20:509][381]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.13.20:517][381]LogInit: FAudioDevice initialized.
+[2016.10.10-17.13.20:596][381]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.13.20:602][381]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.13.20
+[2016.10.10-17.13.20:603][381]LogWorld: Bringing up level for play took: 0.005326
+[2016.10.10-17.13.20:608][381]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.10.10-17.13.20:609][381]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.648
+[2016.10.10-17.13.20:609][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.13.23:650][737]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.13.23:650][737]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.13.23:658][738]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.13.23:658][738]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.13.27:050][ 65]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.656 s
+[2016.10.10-17.13.27:051][ 65]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 415]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:327]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:451]
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:415]
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:2382]
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:2505]
+UE4Editor-Engine.dll!UMovementComponent::MoveUpdatedComponentImpl() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\movementcomponent.cpp:489]
+UE4Editor-Engine.dll!UInterpToMovementComponent::TickComponent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\interptomovementcomponent.cpp:112]
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTickHelper<<lambda_13c1d0f62b5fcaced3ce7b89bd3d0f91> >() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\classes\gameframework\actor.h:2888]
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:702]
+UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:262]
+UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:999]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:932]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:679]
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1776]
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:530]
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1432]
+UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:704]
+UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:1197]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1349]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:368]
+UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2775]
+UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launch.cpp:148]
+UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.10.10-17.13.27:051][ 65]LogStats:                SubmitErrorReport -  0.000 s
+[2016.10.10-17.13.27:258][ 65]LogStats:                    SendNewReport -  0.208 s
+[2016.10.10-17.13.27:258][ 65]LogStats:             FDebug::EnsureFailed -  0.864 s
+[2016.10.10-17.13.27:283][ 65]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.024 s
+[2016.10.10-17.13.27:283][ 65]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2785]
+SetBodyTransform contains NaN (/Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.PickUpSprint_202.Box)
+-nan(ind),-nan(ind),-nan(ind)|0.000000,-4.079551,0.000000|2.000000,2.000000,2.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:327]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:451]
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\physicsengine\bodyinstance.cpp:2785]
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:600]
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:595]
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:508]
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:434]
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorld() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\classes\components\scenecomponent.h:777]
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:1998]
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:524]
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:434]
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:2382]
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:2505]
+UE4Editor-Engine.dll!UMovementComponent::MoveUpdatedComponentImpl() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\movementcomponent.cpp:489]
+UE4Editor-Engine.dll!UInterpToMovementComponent::TickComponent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\interptomovementcomponent.cpp:112]
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTickHelper<<lambda_13c1d0f62b5fcaced3ce7b89bd3d0f91> >() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\classes\gameframework\actor.h:2888]
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:702]
+UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:262]
+UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:999]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:932]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:679]
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1776]
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:530]
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1432]
+UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:704]
+UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:1197]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1349]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:368]
+UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2775]
+UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launch.cpp:148]
+UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.10.10-17.13.27:283][ 65]LogStats:                SubmitErrorReport -  0.000 s
+[2016.10.10-17.13.27:491][ 65]LogStats:                    SendNewReport -  0.208 s
+[2016.10.10-17.13.27:491][ 65]LogStats:             FDebug::EnsureFailed -  0.232 s
+[2016.10.10-17.13.29:111][240]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-17.13.29:112][240]LogBlueprintUserMessages: [FirstPersonProjectile_C_16] Hello
+[2016.10.10-17.13.29:267][256]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.10-17.13.29:267][256]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] Hello
+[2016.10.10-17.13.30:316][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.13.30:363][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.13.32:882][677]LogEditorViewport: Clicking on Actor (LMB): PickUpSprint_C (PickUpSprint)
+[2016.10.10-17.14.28:724][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.14.28:724][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.14.28:724][104]PIE: New page: PIE session: Test (10 Oct 2016 18:14:28)
+[2016.10.10-17.14.28:724][104]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.14.28:743][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019209s)
+[2016.10.10-17.14.28:744][104]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.14.28:744][104]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2016.10.10-17.14.28:744][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020324s)
+[2016.10.10-17.14.28:776][104]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.14.28:783][104]LogInit: FAudioDevice initialized.
+[2016.10.10-17.14.28:865][104]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.14.28:873][104]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.14.28
+[2016.10.10-17.14.28:874][104]LogWorld: Bringing up level for play took: 0.006772
+[2016.10.10-17.14.28:875][104]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.914
+[2016.10.10-17.14.28:875][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.14.32:140][478]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.14.35:533][780]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.866 s
+[2016.10.10-17.14.35:533][780]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 800]
+Nans found on Bounds for Primitive PickUpMesh: Origin X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent X=-nan(ind) Y=-nan(ind) Z=-nan(ind), SphereRadius -nan(ind)
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:327]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:451]
+UE4Editor-Renderer.dll!FScene::UpdatePrimitiveTransform() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\rendererscene.cpp:799]
+UE4Editor-Engine.dll!UPrimitiveComponent::SendRenderTransform_Concurrent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:383]
+UE4Editor-Engine.dll!UActorComponent::DoDeferredRenderUpdates_Concurrent() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:1251]
+UE4Editor-Engine.dll!<lambda_1c27e0d8d47d1db9d2f7e512dcaa630c>::operator()() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:857]
+UE4Editor-Engine.dll!ParallelForWithPreWork() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\async\parallelfor.h:214]
+UE4Editor-Engine.dll!UWorld::SendAllEndOfFrameUpdates() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:871]
+UE4Editor-Renderer.dll!FRendererModule::BeginRenderingViewFamily() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\scenerendering.cpp:1998]
+UE4Editor-Engine.dll!UGameViewportClient::Draw() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\gameviewportclient.cpp:1096]
+UE4Editor-Engine.dll!FViewport::Draw() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\engine\private\unrealclient.cpp:1149]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1531]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:368]
+UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2775]
+UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\launch.cpp:148]
+UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.10.10-17.14.35:533][780]LogStats:                SubmitErrorReport -  0.000 s
+[2016.10.10-17.14.35:754][780]LogStats:                    SendNewReport -  0.221 s
+[2016.10.10-17.14.35:754][780]LogStats:             FDebug::EnsureFailed -  1.088 s
+[2016.10.10-17.14.35:869][782]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.113 s
+[2016.10.10-17.14.35:869][782]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: OriginalBounds.ContainsNaN() == false [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Renderer\Private\ShadowSetup.cpp] [Line: 1409]
+OriginalBound contains NaN : Origin=X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent=(X=-nan(ind) Y=-nan(ind) Z=-nan(ind)), SphereRadius=(-nan(ind))
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:327]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:451]
+UE4Editor-Renderer.dll!FSceneRenderer::CreatePerObjectProjectedShadow() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:1409]
+UE4Editor-Renderer.dll!FSceneRenderer::SetupInteractionShadows() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:1318]
+UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitDynamicShadows() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:2631]
+UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitViewsPossiblyAfterPrepass() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2862]
+UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitViews() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2824]
+UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::Render() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\deferredshadingrenderer.cpp:870]
+UE4Editor-Renderer.dll!RenderViewFamily_RenderThread() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\renderer\private\scenerendering.cpp:1931]
+UE4Editor-Renderer.dll!TGraphTask<`FRendererModule::BeginRenderingViewFamily'::`25'::EURCMacro_FDrawSceneCommand>::ExecuteTask() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:999]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:932]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:679]
+UE4Editor-RenderCore.dll!RenderingThreadMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:319]
+UE4Editor-RenderCore.dll!FRenderingThread::Run() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:440]
+UE4Editor-Core.dll!FRunnableThreadWin::Run() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:74]
+UE4Editor-Core.dll!FRunnableThreadWin::GuardedRun() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:31]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.10.10-17.14.35:869][782]LogStats:                SubmitErrorReport -  0.000 s
+[2016.10.10-17.14.36:101][782]LogStats:                    SendNewReport -  0.231 s
+[2016.10.10-17.14.36:101][782]LogStats:             FDebug::EnsureFailed -  0.345 s
+[2016.10.10-17.14.37:536][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.14.37:589][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.15.28:225][734]BlueprintLog: New page: Compile PickUpSprint
+[2016.10.10-17.15.29:038][734]BlueprintEditorCompileResults: Info [0158.95] Compile of PickUpSprint successful! [in 812 ms] (/Game/FirstPersonBP/Blueprints/PickUpSprint.PickUpSprint)
+[2016.10.10-17.15.31:378][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpSprint" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpSprint.uasset" SILENT=true
+[2016.10.10-17.15.31:433][895]LogSavePackage: Save=46.59ms
+[2016.10.10-17.15.31:433][895]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpSprintC26C525948990C49E7494396C6DDC471.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpSprint.uasset'
+[2016.10.10-17.15.31:434][895]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpSprint.uasset
+[2016.10.10-17.15.33:299][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.15.33:299][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.15.33:299][ 66]PIE: New page: PIE session: Test (10 Oct 2016 18:15:33)
+[2016.10.10-17.15.33:299][ 66]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.15.33:319][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019797s)
+[2016.10.10-17.15.33:320][ 66]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.15.33:320][ 66]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2016.10.10-17.15.33:320][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020759s)
+[2016.10.10-17.15.33:351][ 66]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.15.33:358][ 66]LogInit: FAudioDevice initialized.
+[2016.10.10-17.15.33:406][ 66]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.15.33:410][ 66]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.15.33
+[2016.10.10-17.15.33:411][ 66]LogWorld: Bringing up level for play took: 0.004508
+[2016.10.10-17.15.33:412][ 66]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.549
+[2016.10.10-17.15.33:412][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.15.43:925][319]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.15.43:925][319]LogBlueprintUserMessages: [FirstPersonProjectile_C_10] Hello
+[2016.10.10-17.15.44:308][365]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.15.44:309][365]LogBlueprintUserMessages: [FirstPersonProjectile_C_11] Hello
+[2016.10.10-17.15.47:267][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.15.47:313][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.16.55:393][674]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.16.55:503][674]BlueprintEditorCompileResults: Info [0245.41] Compile of PickUpHealth successful! [in 110 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.16.58:128][914]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.16.58:128][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.16.58:128][914]PIE: New page: PIE session: Test (10 Oct 2016 18:16:58)
+[2016.10.10-17.16.58:128][914]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.16.58:149][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020260s)
+[2016.10.10-17.16.58:149][914]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.16.58:149][914]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2016.10.10-17.16.58:150][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.021407s)
+[2016.10.10-17.16.58:182][914]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.16.58:189][914]LogInit: FAudioDevice initialized.
+[2016.10.10-17.16.58:240][914]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.16.58:245][914]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.16.58
+[2016.10.10-17.16.58:246][914]LogWorld: Bringing up level for play took: 0.004472
+[2016.10.10-17.16.58:247][914]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.286
+[2016.10.10-17.16.58:247][914]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.17.16:263][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.17.16:306][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.17.25:959][631]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.17.26:241][631]BlueprintEditorCompileResults: Info [0276.15] Compile of PickUpHealth successful! [in 282 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.17.27:208][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpHealth" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset" SILENT=true
+[2016.10.10-17.17.27:242][712]LogSavePackage: Save=27.69ms
+[2016.10.10-17.17.27:242][712]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealthDC131C414CD0DB90E78F6D9C20B68D45.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset'
+[2016.10.10-17.17.27:243][712]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset
+[2016.10.10-17.18.51:503][674]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.18.51:626][674]BlueprintEditorCompileResults: Info [0361.54] Compile of PickUpHealth successful! [in 124 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.19.32:937][798]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.19.33:062][798]BlueprintEditorCompileResults: Info [0402.97] Compile of PickUpHealth successful! [in 124 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.19.35:287][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.19.35:287][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.19.35:287][  5]PIE: New page: PIE session: Test (10 Oct 2016 18:19:35)
+[2016.10.10-17.19.35:287][  5]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.19.35:311][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023590s)
+[2016.10.10-17.19.35:312][  5]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.19.35:312][  5]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2016.10.10-17.19.35:313][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.025150s)
+[2016.10.10-17.19.35:354][  5]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.19.35:365][  5]LogInit: FAudioDevice initialized.
+[2016.10.10-17.19.35:430][  5]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.19.35:437][  5]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.19.35
+[2016.10.10-17.19.35:438][  5]LogWorld: Bringing up level for play took: 0.005767
+[2016.10.10-17.19.35:439][  5]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.522
+[2016.10.10-17.19.35:439][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.19.38:071][310]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.19.38:071][310]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.10-17.19.38:513][363]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.19.38:513][363]LogBlueprintUserMessages: [FirstPersonProjectile_C_9] Hello
+[2016.10.10-17.19.52:477][ 37]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-17.19.52:477][ 37]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] Hello
+[2016.10.10-17.19.52:594][ 51]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.10-17.19.52:594][ 51]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] Hello
+[2016.10.10-17.19.59:629][895]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.10-17.19.59:629][895]LogBlueprintUserMessages: [FirstPersonProjectile_C_15] Hello
+[2016.10.10-17.19.59:905][928]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.10-17.19.59:905][928]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] Hello
+[2016.10.10-17.20.04:618][493]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.20.05:785][633]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.10-17.20.05:785][633]LogBlueprintUserMessages: [FirstPersonProjectile_C_20] Hello
+[2016.10.10-17.20.05:927][650]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.10-17.20.05:927][650]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] Hello
+[2016.10.10-17.20.07:479][836]LogBlueprintUserMessages: [AICharacter_C_4] 50
+[2016.10.10-17.20.07:479][836]LogBlueprintUserMessages: [FirstPersonProjectile_C_27] Hello
+[2016.10.10-17.20.07:638][855]LogBlueprintUserMessages: [AICharacter_C_4] 0
+[2016.10.10-17.20.07:638][855]LogBlueprintUserMessages: [FirstPersonProjectile_C_28] Hello
+[2016.10.10-17.20.10:391][185]LogBlueprintUserMessages: [AICharacter_C_5] 50
+[2016.10.10-17.20.10:391][185]LogBlueprintUserMessages: [FirstPersonProjectile_C_38] Hello
+[2016.10.10-17.20.10:901][246]LogBlueprintUserMessages: [AICharacter_C_5] 0
+[2016.10.10-17.20.10:901][246]LogBlueprintUserMessages: [FirstPersonProjectile_C_41] Hello
+[2016.10.10-17.20.11:851][360]LogBlueprintUserMessages: [AICharacter_C_6] 50
+[2016.10.10-17.20.11:851][360]LogBlueprintUserMessages: [FirstPersonProjectile_C_44] Hello
+[2016.10.10-17.20.12:011][379]LogBlueprintUserMessages: [AICharacter_C_6] 0
+[2016.10.10-17.20.12:011][379]LogBlueprintUserMessages: [FirstPersonProjectile_C_45] Hello
+[2016.10.10-17.20.12:929][489]LogBlueprintUserMessages: [AICharacter_C_7] 50
+[2016.10.10-17.20.12:929][489]LogBlueprintUserMessages: [FirstPersonProjectile_C_49] Hello
+[2016.10.10-17.20.13:114][511]LogBlueprintUserMessages: [AICharacter_C_7] 0
+[2016.10.10-17.20.13:114][511]LogBlueprintUserMessages: [FirstPersonProjectile_C_50] Hello
+[2016.10.10-17.20.13:822][596]LogBlueprintUserMessages: [AICharacter_C_8] 50
+[2016.10.10-17.20.13:822][596]LogBlueprintUserMessages: [FirstPersonProjectile_C_53] Hello
+[2016.10.10-17.20.14:323][656]LogBlueprintUserMessages: [AICharacter_C_8] 0
+[2016.10.10-17.20.14:323][656]LogBlueprintUserMessages: [FirstPersonProjectile_C_56] Hello
+[2016.10.10-17.20.16:163][876]LogBlueprintUserMessages: [AICharacter_C_9] 50
+[2016.10.10-17.20.16:163][876]LogBlueprintUserMessages: [FirstPersonProjectile_C_63] Hello
+[2016.10.10-17.20.18:266][128]LogBlueprintUserMessages: [AICharacter_C_9] 0
+[2016.10.10-17.20.18:266][128]LogBlueprintUserMessages: [FirstPersonProjectile_C_72] Hello
+[2016.10.10-17.20.20:553][401]LogBlueprintUserMessages: [AICharacter_C_10] 50
+[2016.10.10-17.20.20:553][401]LogBlueprintUserMessages: [FirstPersonProjectile_C_80] Hello
+[2016.10.10-17.20.20:745][424]LogBlueprintUserMessages: [AICharacter_C_10] 0
+[2016.10.10-17.20.20:745][424]LogBlueprintUserMessages: [FirstPersonProjectile_C_81] Hello
+[2016.10.10-17.20.23:107][707]LogBlueprintUserMessages: [AICharacter_C_11] 50
+[2016.10.10-17.20.23:107][707]LogBlueprintUserMessages: [FirstPersonProjectile_C_88] Hello
+[2016.10.10-17.20.24:435][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.20.24:483][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.20.29:955][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Test" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.10-17.20.31:278][504]LogSavePackage: Save=1234.72ms
+[2016.10.10-17.20.31:278][504]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Test7A34317C44BB57C02B2F88B305D5C566.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap'
+[2016.10.10-17.20.31:281][504]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap
+[2016.10.10-17.20.57:886][281]BlueprintLog: New page: Compile AICharacter
+[2016.10.10-17.20.58:030][281]BlueprintEditorCompileResults: Info [0487.94] Compile of AICharacter successful! [in 142 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.10-17.20.59:232][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/AICharacter" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset" SILENT=true
+[2016.10.10-17.20.59:305][354]LogSavePackage: Save=67.62ms
+[2016.10.10-17.20.59:305][354]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/AICharacter3C58EC7A4AEA88371F0ADB9CD5E18179.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset'
+[2016.10.10-17.20.59:306][354]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset
+[2016.10.10-17.21.02:745][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.21.02:745][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.21.02:745][622]PIE: New page: PIE session: Test (10 Oct 2016 18:21:02)
+[2016.10.10-17.21.02:745][622]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.21.02:764][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019213s)
+[2016.10.10-17.21.02:765][622]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.21.02:765][622]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2016.10.10-17.21.02:765][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020315s)
+[2016.10.10-17.21.02:796][622]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.21.02:803][622]LogInit: FAudioDevice initialized.
+[2016.10.10-17.21.02:872][622]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.21.02:878][622]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.21.02
+[2016.10.10-17.21.02:879][622]LogWorld: Bringing up level for play took: 0.005458
+[2016.10.10-17.21.02:880][622]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.919
+[2016.10.10-17.21.02:880][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.21.12:544][768]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.21.12:544][768]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.10-17.21.12:686][785]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.21.12:686][785]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.10-17.21.18:038][425]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.21.19:827][639]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-17.21.19:827][639]LogBlueprintUserMessages: [FirstPersonProjectile_C_28] Hello
+[2016.10.10-17.21.20:147][677]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.10-17.21.20:147][677]LogBlueprintUserMessages: [FirstPersonProjectile_C_30] Hello
+[2016.10.10-17.21.22:337][939]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.10-17.21.22:337][939]LogBlueprintUserMessages: [FirstPersonProjectile_C_32] Hello
+[2016.10.10-17.21.22:605][971]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.10-17.21.22:605][971]LogBlueprintUserMessages: [FirstPersonProjectile_C_34] Hello
+[2016.10.10-17.21.23:782][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.21.23:824][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.22.53:362][921]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.22.53:472][921]BlueprintEditorCompileResults: Info [0603.38] Compile of PickUpHealth successful! [in 110 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.23.03:034][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpHealth" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset" SILENT=true
+[2016.10.10-17.23.03:070][702]LogSavePackage: Save=29.84ms
+[2016.10.10-17.23.03:070][702]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealth559C73F14F20193DA4B0489F957AC547.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset'
+[2016.10.10-17.23.03:071][702]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset
+[2016.10.10-17.23.05:846][941]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.23.05:846][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.23.05:846][941]PIE: New page: PIE session: Test (10 Oct 2016 18:23:05)
+[2016.10.10-17.23.05:846][941]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.23.05:865][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018909s)
+[2016.10.10-17.23.05:865][941]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.23.05:866][941]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2016.10.10-17.23.05:866][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020025s)
+[2016.10.10-17.23.05:898][941]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.23.05:907][941]LogInit: FAudioDevice initialized.
+[2016.10.10-17.23.05:956][941]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.23.05:961][941]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.23.05
+[2016.10.10-17.23.05:962][941]LogWorld: Bringing up level for play took: 0.004886
+[2016.10.10-17.23.05:964][941]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.003
+[2016.10.10-17.23.05:964][941]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.23.17:518][311]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.23.17:518][311]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.10-17.23.17:660][328]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.23.17:660][328]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.10-17.23.19:887][595]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 75
+[2016.10.10-17.23.20:371][653]Set new viewmode: Wireframe
+[2016.10.10-17.23.21:357][771]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 50
+[2016.10.10-17.23.21:974][845]Set new viewmode: Wireframe
+[2016.10.10-17.23.24:307][125]Set new viewmode: Unlit
+[2016.10.10-17.23.26:548][394]Set new viewmode: Unlit
+[2016.10.10-17.23.26:999][448]Set new viewmode: Unlit
+[2016.10.10-17.23.27:782][542]Set new viewmode: Wireframe
+[2016.10.10-17.23.28:257][599]Set new viewmode: Wireframe
+[2016.10.10-17.23.28:690][651]Set new viewmode: Unlit
+[2016.10.10-17.23.29:057][695]Set new viewmode: Lit
+[2016.10.10-17.23.29:860][791]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-17.23.29:860][791]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.23.30:007][808]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.10-17.23.30:007][808]LogBlueprintUserMessages: [FirstPersonProjectile_C_4] Hello
+[2016.10.10-17.23.31:740][ 16]Set new viewmode: Unlit
+[2016.10.10-17.23.33:115][181]Set new viewmode: Lit
+[2016.10.10-17.23.33:720][253]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.10-17.23.33:720][253]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.10-17.23.33:726][254]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.10-17.23.33:726][254]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.10-17.23.36:516][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.23.36:562][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.24.16:668][ 27]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.10-17.25.15:000][944]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.25.15:118][944]BlueprintEditorCompileResults: Info [0745.03] Compile of PickUpHealth successful! [in 118 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.25.17:722][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpHealth" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset" SILENT=true
+[2016.10.10-17.25.17:756][140]LogSavePackage: Save=31.68ms
+[2016.10.10-17.25.17:756][140]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealth82BBCAEE407DEA11EC1DDC9A300A8B3A.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset'
+[2016.10.10-17.25.17:758][140]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset
+[2016.10.10-17.25.19:695][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.25.19:695][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.25.19:695][332]PIE: New page: PIE session: Test (10 Oct 2016 18:25:19)
+[2016.10.10-17.25.19:695][332]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.25.19:715][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019165s)
+[2016.10.10-17.25.19:715][332]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.25.19:715][332]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2016.10.10-17.25.19:716][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020077s)
+[2016.10.10-17.25.19:746][332]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.25.19:753][332]LogInit: FAudioDevice initialized.
+[2016.10.10-17.25.19:822][332]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.25.19:827][332]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.25.19
+[2016.10.10-17.25.19:827][332]LogWorld: Bringing up level for play took: 0.004351
+[2016.10.10-17.25.19:828][332]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.133
+[2016.10.10-17.25.19:829][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.25.21:824][559]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.25.23:538][757]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.25.23:538][757]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.10-17.25.24:092][823]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.25.24:092][823]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.25.24:097][824]LogBlueprintUserMessages: [AICharacter_C_0] -50
+[2016.10.10-17.25.24:097][824]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.25.24:098][824]LogBlueprintUserMessages: [AICharacter_C_0] -100
+[2016.10.10-17.25.24:098][824]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.25.27:440][225]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-17.25.27:440][225]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.10-17.25.27:600][244]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.10-17.25.27:600][244]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.10.10-17.25.28:606][364]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.10-17.25.28:606][364]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Hello
+[2016.10.10-17.25.28:740][380]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.10-17.25.28:740][380]LogBlueprintUserMessages: [FirstPersonProjectile_C_9] Hello
+[2016.10.10-17.25.41:732][938]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.10-17.25.41:732][938]LogBlueprintUserMessages: [FirstPersonProjectile_C_12] Hello
+[2016.10.10-17.25.42:017][972]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.10-17.25.42:017][972]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] Hello
+[2016.10.10-17.25.44:989][328]LogBlueprintUserMessages: [AICharacter_C_4] 50
+[2016.10.10-17.25.44:989][328]LogBlueprintUserMessages: [FirstPersonProjectile_C_15] Hello
+[2016.10.10-17.25.45:415][379]LogBlueprintUserMessages: [AICharacter_C_4] 0
+[2016.10.10-17.25.45:415][379]LogBlueprintUserMessages: [FirstPersonProjectile_C_16] Hello
+[2016.10.10-17.25.46:124][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.25.46:168][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.25.47:821][655]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth)
+[2016.10.10-17.28.08:060][795]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.28.08:189][795]BlueprintEditorCompileResults: Info [0918.10] Compile of PickUpHealth successful! [in 128 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.31.50:228][294]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.31.50:355][294]BlueprintEditorCompileResults: Info [1140.26] Compile of PickUpHealth successful! [in 126 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.31.52:046][324]LogSavePackage: Save=1221.72ms
+[2016.10.10-17.31.52:046][324]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Test_Auto18EE3F52B4EAB3457E61F87ACCB61A4B6.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Maps/Test_Auto1.umap'
+[2016.10.10-17.31.52:285][324]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Maps/Test_Auto1.umap
+[2016.10.10-17.31.52:291][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Test' took 1.503
+[2016.10.10-17.31.52:291][324]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.503
+[2016.10.10-17.31.52:294][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/PickUpHealth] ([1] browsable assets)...
+[2016.10.10-17.31.52:337][324]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth]
+[2016.10.10-17.31.52:337][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/PickUpHealth]
+[2016.10.10-17.31.52:415][324]LogSavePackage: Save=65.04ms
+[2016.10.10-17.31.52:416][324]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealth_Auto1BF5C044B435FA9C924D363ABB958DB20.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/PickUpHealth_Auto1.uasset'
+[2016.10.10-17.31.52:416][324]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/PickUpHealth_Auto1.uasset
+[2016.10.10-17.31.52:416][324]LogFileHelpers: Auto-saving content packages took 0.124
+[2016.10.10-17.31.52:812][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpHealth" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset" SILENT=true
+[2016.10.10-17.31.52:841][346]LogSavePackage: Save=26.75ms
+[2016.10.10-17.31.52:841][346]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealth77AE87564D9E0F819843D6B8C8A7AA50.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset'
+[2016.10.10-17.31.52:844][346]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset
+[2016.10.10-17.31.58:183][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.31.58:183][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.31.58:183][807]PIE: New page: PIE session: Test (10 Oct 2016 18:31:58)
+[2016.10.10-17.31.58:184][807]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.31.58:203][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019557s)
+[2016.10.10-17.31.58:204][807]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.31.58:204][807]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2016.10.10-17.31.58:204][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020652s)
+[2016.10.10-17.31.58:236][807]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.31.58:243][807]LogInit: FAudioDevice initialized.
+[2016.10.10-17.31.58:292][807]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.31.58:296][807]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.31.58
+[2016.10.10-17.31.58:297][807]LogWorld: Bringing up level for play took: 0.004253
+[2016.10.10-17.31.58:298][807]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.337
+[2016.10.10-17.31.58:298][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.31.59:681][969]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.32.08:734][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.32.08:775][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.34.33:033][474]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.34.33:154][474]BlueprintEditorCompileResults: Info [1303.06] Compile of PickUpHealth successful! [in 121 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.34.37:539][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.34.37:539][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.34.37:539][849]PIE: New page: PIE session: Test (10 Oct 2016 18:34:37)
+[2016.10.10-17.34.37:539][849]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.34.37:555][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016450s)
+[2016.10.10-17.34.37:556][849]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.34.37:556][849]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2016.10.10-17.34.37:557][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017561s)
+[2016.10.10-17.34.37:590][849]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.34.37:599][849]LogInit: FAudioDevice initialized.
+[2016.10.10-17.34.37:665][849]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.34.37:670][849]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.34.37
+[2016.10.10-17.34.37:670][849]LogWorld: Bringing up level for play took: 0.004444
+[2016.10.10-17.34.37:671][849]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.29
+[2016.10.10-17.34.37:671][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.34.39:248][ 34]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.34.43:151][495]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.34.43:151][495]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.10-17.34.43:845][577]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.34.43:845][577]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.34.43:846][577]LogBlueprintUserMessages: [AICharacter_C_0] -50
+[2016.10.10-17.34.43:846][577]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-17.34.46:650][913]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-17.34.46:650][913]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.10.10-17.34.47:562][ 22]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.10-17.34.47:562][ 22]LogBlueprintUserMessages: [FirstPersonProjectile_C_10] Hello
+[2016.10.10-17.34.50:040][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.34.50:089][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.35.25:224][516]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.10-17.42.32:180][598]LogSavePackage: Save=1232.34ms
+[2016.10.10-17.42.32:180][598]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Test_Auto252F6DA704C9B38F0F630CEB26CBDCCF3.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Maps/Test_Auto2.umap'
+[2016.10.10-17.42.32:418][598]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Maps/Test_Auto2.umap
+[2016.10.10-17.42.32:421][598]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Test' took 1.514
+[2016.10.10-17.42.32:421][598]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.514
+[2016.10.10-17.42.32:424][598]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/PickUpHealth] ([1] browsable assets)...
+[2016.10.10-17.42.32:469][598]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth]
+[2016.10.10-17.42.32:469][598]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/PickUpHealth]
+[2016.10.10-17.42.32:519][598]LogSavePackage: Save=41.03ms
+[2016.10.10-17.42.32:519][598]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealth_Auto250672DBF43D5937E8B17D0B761CFFC5C.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/PickUpHealth_Auto2.uasset'
+[2016.10.10-17.42.32:519][598]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/PickUpHealth_Auto2.uasset
+[2016.10.10-17.42.32:519][598]LogFileHelpers: Auto-saving content packages took 0.097
+[2016.10.10-17.42.50:051][ 89]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.42.50:173][ 89]BlueprintEditorCompileResults: Info [1800.08] Compile of PickUpHealth successful! [in 121 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.43.56:080][597]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.43.56:198][597]BlueprintEditorCompileResults: Info [1866.11] Compile of PickUpHealth successful! [in 118 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.43.57:326][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpHealth" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset" SILENT=true
+[2016.10.10-17.43.57:364][690]LogSavePackage: Save=35.63ms
+[2016.10.10-17.43.57:364][690]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealthAE6C648343DEF4E46603229EE842B97D.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset'
+[2016.10.10-17.43.57:367][690]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset
+[2016.10.10-17.44.00:914][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.44.00:914][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.44.00:914][987]PIE: New page: PIE session: Test (10 Oct 2016 18:44:00)
+[2016.10.10-17.44.00:914][987]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.44.00:932][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017440s)
+[2016.10.10-17.44.00:932][987]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.44.00:933][987]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2016.10.10-17.44.00:933][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.018704s)
+[2016.10.10-17.44.00:967][987]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.44.00:975][987]LogInit: FAudioDevice initialized.
+[2016.10.10-17.44.01:027][987]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.44.01:032][987]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.44.01
+[2016.10.10-17.44.01:033][987]LogWorld: Bringing up level for play took: 0.004413
+[2016.10.10-17.44.01:034][987]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 1.075
+[2016.10.10-17.44.01:034][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.44.03:044][221]LogBlueprintUserMessages: [PickUpHealth_862] I'm deaf
+[2016.10.10-17.44.03:044][221]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.44.07:390][737]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.44.07:390][737]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.10-17.44.08:270][842]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.44.08:270][842]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.10-17.44.08:891][916]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-17.44.08:891][916]LogBlueprintUserMessages: [FirstPersonProjectile_C_10] Hello
+[2016.10.10-17.44.09:231][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.44.09:272][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.45.29:433][866]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.45.29:554][866]BlueprintEditorCompileResults: Info [1959.46] Compile of PickUpHealth successful! [in 120 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.45.32:820][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.45.32:820][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.45.32:820][146]PIE: New page: PIE session: Test (10 Oct 2016 18:45:32)
+[2016.10.10-17.45.32:820][146]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.45.32:836][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016531s)
+[2016.10.10-17.45.32:837][146]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.45.32:837][146]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2016.10.10-17.45.32:837][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017648s)
+[2016.10.10-17.45.32:871][146]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.45.32:879][146]LogInit: FAudioDevice initialized.
+[2016.10.10-17.45.32:931][146]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.45.32:935][146]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.45.32
+[2016.10.10-17.45.32:936][146]LogWorld: Bringing up level for play took: 0.004374
+[2016.10.10-17.45.32:937][146]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.978
+[2016.10.10-17.45.32:937][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.45.34:506][330]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.45.38:247][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.45.38:294][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.46.39:197][835]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.46.39:318][835]BlueprintEditorCompileResults: Info [2029.23] Compile of PickUpHealth successful! [in 120 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.46.42:788][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.46.42:788][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.46.42:788][132]PIE: New page: PIE session: Test (10 Oct 2016 18:46:42)
+[2016.10.10-17.46.42:788][132]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.46.42:805][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016758s)
+[2016.10.10-17.46.42:806][132]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.46.42:806][132]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2016.10.10-17.46.42:806][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017763s)
+[2016.10.10-17.46.42:839][132]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.46.42:846][132]LogInit: FAudioDevice initialized.
+[2016.10.10-17.46.42:898][132]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.46.42:903][132]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.46.42
+[2016.10.10-17.46.42:903][132]LogWorld: Bringing up level for play took: 0.004277
+[2016.10.10-17.46.42:904][132]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.945
+[2016.10.10-17.46.42:904][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.46.44:564][327]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.46:016][493]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.48:670][811]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.50:329][ 10]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.50:646][ 48]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.51:054][ 97]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.52:520][273]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.53:229][358]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.56:163][710]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.46.57:971][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.46.58:011][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.47.39:609][569]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.47.39:733][569]BlueprintEditorCompileResults: Info [2089.64] Compile of PickUpHealth successful! [in 123 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.47.42:240][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.47.42:240][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.47.42:240][782]PIE: New page: PIE session: Test (10 Oct 2016 18:47:42)
+[2016.10.10-17.47.42:240][782]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.47.42:257][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016523s)
+[2016.10.10-17.47.42:258][782]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.47.42:258][782]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2016.10.10-17.47.42:258][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017653s)
+[2016.10.10-17.47.42:289][782]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.47.42:296][782]LogInit: FAudioDevice initialized.
+[2016.10.10-17.47.42:358][782]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.47.42:369][782]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.47.42
+[2016.10.10-17.47.42:370][782]LogWorld: Bringing up level for play took: 0.009545
+[2016.10.10-17.47.42:371][782]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.412
+[2016.10.10-17.47.42:372][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.47.43:864][956]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.47.47:204][349]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.47.48:787][538]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.47.50:362][727]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.47.50:407][727]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.06:063][902]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.48.06:181][902]BlueprintEditorCompileResults: Info [2116.09] Compile of PickUpHealth successful! [in 118 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.48.08:677][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.08:677][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.48.08:677][126]PIE: New page: PIE session: Test (10 Oct 2016 18:48:08)
+[2016.10.10-17.48.08:677][126]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.48.08:694][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017563s)
+[2016.10.10-17.48.08:695][126]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.48.08:695][126]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2016.10.10-17.48.08:695][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.018627s)
+[2016.10.10-17.48.08:727][126]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.48.08:733][126]LogInit: FAudioDevice initialized.
+[2016.10.10-17.48.08:783][126]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.48.08:788][126]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.48.08
+[2016.10.10-17.48.08:788][126]LogWorld: Bringing up level for play took: 0.004372
+[2016.10.10-17.48.08:789][126]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.83
+[2016.10.10-17.48.08:789][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.10:172][288]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.48.10:181][289]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.48.10:555][334]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.48.13:143][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.13:187][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.27:055][718]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.48.27:192][718]BlueprintEditorCompileResults: Info [2137.10] Compile of PickUpHealth successful! [in 137 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.48.30:917][ 47]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.30:917][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.48.30:917][ 47]PIE: New page: PIE session: Test (10 Oct 2016 18:48:30)
+[2016.10.10-17.48.30:917][ 47]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.48.30:933][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015948s)
+[2016.10.10-17.48.30:934][ 47]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.48.30:934][ 47]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2016.10.10-17.48.30:934][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.016971s)
+[2016.10.10-17.48.30:972][ 47]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.48.30:979][ 47]LogInit: FAudioDevice initialized.
+[2016.10.10-17.48.31:026][ 47]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.48.31:031][ 47]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.48.31
+[2016.10.10-17.48.31:032][ 47]LogWorld: Bringing up level for play took: 0.004258
+[2016.10.10-17.48.31:033][ 47]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 1.073
+[2016.10.10-17.48.31:033][ 47]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.33:061][283]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.48.33:670][353]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.48.36:211][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.48.36:258][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.49.26:022][811]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.49.26:145][811]BlueprintEditorCompileResults: Info [2196.06] Compile of PickUpHealth successful! [in 122 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.49.31:992][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.49.31:992][308]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.10-17.49.32:001][308]LogPlayLevel: [PlayLevel] Compiling PickUpHealth before play...
+[2016.10.10-17.49.32:106][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (2 blueprints)
+[2016.10.10-17.49.32:114][308]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.10.10-17.49.32:333][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 341 ms (3 blueprints)
+[2016.10.10-17.49.32:338][308]LogPlayLevel: [PlayLevel] Compiling AICharacter before play...
+[2016.10.10-17.49.32:442][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 450 ms (4 blueprints)
+[2016.10.10-17.49.32:443][308]LogPlayLevel: [PlayLevel] Compiling EnemySpawner before play...
+[2016.10.10-17.49.32:526][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 534 ms (5 blueprints)
+[2016.10.10-17.49.32:527][308]LogPlayLevel: [PlayLevel] Compiling FirstPersonGameMode before play...
+[2016.10.10-17.49.32:602][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 610 ms (5 blueprints)
+[2016.10.10-17.49.32:629][308]PIE: New page: PIE session: Test (10 Oct 2016 18:49:32)
+[2016.10.10-17.49.32:629][308]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.49.32:645][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015729s)
+[2016.10.10-17.49.32:646][308]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.49.32:646][308]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2016.10.10-17.49.32:646][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.016775s)
+[2016.10.10-17.49.32:682][308]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.49.32:689][308]LogInit: FAudioDevice initialized.
+[2016.10.10-17.49.32:757][308]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.49.32:763][308]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.49.32
+[2016.10.10-17.49.32:763][308]LogWorld: Bringing up level for play took: 0.005168
+[2016.10.10-17.49.32:765][308]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.805
+[2016.10.10-17.49.32:765][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.49.34:415][459]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.49.36:889][744]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.49.36:889][744]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.10-17.49.37:057][764]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.49.37:057][764]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.10-17.49.38:083][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.49.38:128][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.50.36:735][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpHealth" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset" SILENT=true
+[2016.10.10-17.50.36:778][653]LogSavePackage: Save=35.53ms
+[2016.10.10-17.50.36:778][653]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealthEA0B03B740EC0F92FFA6E98D83C0D1B7.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset'
+[2016.10.10-17.50.36:779][653]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset
+[2016.10.10-17.52.31:356][608]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.52.31:483][608]BlueprintEditorCompileResults: Info [2381.39] Compile of PickUpHealth successful! [in 126 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.52.40:827][320]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.52.40:943][320]BlueprintEditorCompileResults: Info [2390.85] Compile of PickUpHealth successful! [in 115 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.52.46:495][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.52.46:495][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.52.46:495][795]PIE: New page: PIE session: Test (10 Oct 2016 18:52:46)
+[2016.10.10-17.52.46:495][795]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.52.46:512][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017158s)
+[2016.10.10-17.52.46:513][795]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.52.46:513][795]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2016.10.10-17.52.46:513][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.018342s)
+[2016.10.10-17.52.46:544][795]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.52.46:552][795]LogInit: FAudioDevice initialized.
+[2016.10.10-17.52.46:621][795]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.52.46:627][795]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.52.46
+[2016.10.10-17.52.46:628][795]LogWorld: Bringing up level for play took: 0.006038
+[2016.10.10-17.52.46:629][795]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.67
+[2016.10.10-17.52.46:630][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.52.48:274][988]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.52.49:436][116]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=177.470 Y=-1290.764 Z=276.823] for [FirstPersonProjectile_C]
+[2016.10.10-17.52.49:757][154]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.52.49:757][154]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.10-17.52.50:255][213]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.52.50:255][213]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.10-17.52.53:455][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.52.53:495][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.52.54:613][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.52.54:613][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.52.54:613][716]PIE: New page: PIE session: Test (10 Oct 2016 18:52:54)
+[2016.10.10-17.52.54:613][716]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.52.54:629][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015890s)
+[2016.10.10-17.52.54:629][716]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.52.54:630][716]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2016.10.10-17.52.54:630][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.016837s)
+[2016.10.10-17.52.54:662][716]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.52.54:669][716]LogInit: FAudioDevice initialized.
+[2016.10.10-17.52.54:740][716]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.52.54:745][716]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.52.54
+[2016.10.10-17.52.54:746][716]LogWorld: Bringing up level for play took: 0.004703
+[2016.10.10-17.52.54:747][716]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.788
+[2016.10.10-17.52.54:747][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.52.55:548][808]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.52.59:468][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.52.59:509][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.53.08:568][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.53.08:568][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.53.08:568][794]PIE: New page: PIE session: Test (10 Oct 2016 18:53:08)
+[2016.10.10-17.53.08:568][794]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.53.08:585][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016839s)
+[2016.10.10-17.53.08:586][794]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.53.08:586][794]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2016.10.10-17.53.08:586][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017982s)
+[2016.10.10-17.53.08:618][794]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.53.08:625][794]LogInit: FAudioDevice initialized.
+[2016.10.10-17.53.08:666][794]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.53.08:670][794]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.53.08
+[2016.10.10-17.53.08:671][794]LogWorld: Bringing up level for play took: 0.004396
+[2016.10.10-17.53.08:672][794]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.713
+[2016.10.10-17.53.08:672][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.53.10:851][994]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.53.17:478][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.53.17:526][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.53.55:663][782]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.10-17.54.38:106][360]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.54.38:224][360]BlueprintEditorCompileResults: Info [2508.13] Compile of PickUpHealth successful! [in 117 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.54.49:956][182]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.54.50:076][182]BlueprintEditorCompileResults: Info [2519.99] Compile of PickUpHealth successful! [in 119 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.54.53:557][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.54.53:557][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.54.53:557][522]PIE: New page: PIE session: Test (10 Oct 2016 18:54:53)
+[2016.10.10-17.54.53:557][522]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.54.53:573][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016409s)
+[2016.10.10-17.54.53:574][522]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.54.53:574][522]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2016.10.10-17.54.53:574][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017443s)
+[2016.10.10-17.54.53:607][522]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.54.53:614][522]LogInit: FAudioDevice initialized.
+[2016.10.10-17.54.53:679][522]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.54.53:684][522]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.54.53
+[2016.10.10-17.54.53:685][522]LogWorld: Bringing up level for play took: 0.004328
+[2016.10.10-17.54.53:686][522]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.273
+[2016.10.10-17.54.53:686][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.54.55:080][685]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.55.07:772][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.55.07:822][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.55.27:207][580]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.55.27:325][580]BlueprintEditorCompileResults: Info [2557.23] Compile of PickUpHealth successful! [in 117 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.55.29:902][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.55.29:902][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.55.29:902][805]PIE: New page: PIE session: Test (10 Oct 2016 18:55:29)
+[2016.10.10-17.55.29:902][805]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.55.29:918][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015601s)
+[2016.10.10-17.55.29:919][805]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.55.29:919][805]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2016.10.10-17.55.29:919][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.016640s)
+[2016.10.10-17.55.29:952][805]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.55.29:959][805]LogInit: FAudioDevice initialized.
+[2016.10.10-17.55.30:011][805]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.55.30:017][805]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.55.30
+[2016.10.10-17.55.30:017][805]LogWorld: Bringing up level for play took: 0.004336
+[2016.10.10-17.55.30:018][805]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.059
+[2016.10.10-17.55.30:018][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.55.31:396][966]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.55.33:913][259]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.55.34:965][385]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-17.55.34:965][385]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.10-17.55.35:285][423]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-17.55.35:285][423]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.10-17.55.36:702][593]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-17.55.38:702][832]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=202.407 Y=-1418.990 Z=295.547] for [FirstPersonProjectile_C]
+[2016.10.10-17.55.39:976][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.55.40:020][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.57.26:052][689]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.57.26:168][689]BlueprintEditorCompileResults: Info [2676.08] Compile of PickUpHealth successful! [in 116 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.58.43:573][952]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.10-17.59.18:494][467]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.10.10-17.59.18:726][467]BlueprintEditorCompileResults: Info [2788.64] Compile of FirstPersonCharacter successful! [in 232 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.10.10-17.59.24:757][913]BlueprintLog: New page: Compile PickUpHealth
+[2016.10.10-17.59.24:884][913]BlueprintEditorCompileResults: Info [2794.79] Compile of PickUpHealth successful! [in 127 ms] (/Game/FirstPersonBP/Blueprints/PickUpHealth.PickUpHealth)
+[2016.10.10-17.59.27:110][ 66]LogSavePackage: Save=113.07ms
+[2016.10.10-17.59.27:110][ 66]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/FirstPersonCharacterF94CCF714718587A18508FAC59DA45FF.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.10.10-17.59.27:131][ 66]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.10.10-17.59.28:209][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpHealth" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset" SILENT=true
+[2016.10.10-17.59.28:249][147]LogSavePackage: Save=33.80ms
+[2016.10.10-17.59.28:249][147]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpHealth831A104847E449FD6E1F2891E3D35295.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset'
+[2016.10.10-17.59.28:250][147]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpHealth.uasset
+[2016.10.10-17.59.31:974][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.59.31:974][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-17.59.31:974][496]PIE: New page: PIE session: Test (10 Oct 2016 18:59:31)
+[2016.10.10-17.59.31:974][496]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-17.59.31:993][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018309s)
+[2016.10.10-17.59.31:994][496]LogAIModule: Creating AISystem for world Test
+[2016.10.10-17.59.31:994][496]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2016.10.10-17.59.31:994][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.019456s)
+[2016.10.10-17.59.32:028][496]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-17.59.32:035][496]LogInit: FAudioDevice initialized.
+[2016.10.10-17.59.32:087][496]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-17.59.32:092][496]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-18.59.32
+[2016.10.10-17.59.32:092][496]LogWorld: Bringing up level for play took: 0.004420
+[2016.10.10-17.59.32:094][496]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.134
+[2016.10.10-17.59.32:094][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.59.38:545][257]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0175
+[2016.10.10-17.59.38:546][257]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor Pick Up Sprint in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+[2016.10.10-17.59.38:546][257]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0104
+[2016.10.10-17.59.38:546][257]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor Pick Up Sprint in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+[2016.10.10-17.59.46:670][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-17.59.46:728][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.01.04:107][530]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.10.10-18.01.04:297][530]BlueprintEditorCompileResults: Info [2894.21] Compile of FirstPersonCharacter successful! [in 189 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.10.10-18.01.07:751][742]LogSavePackage: Save=111.58ms
+[2016.10.10-18.01.07:751][742]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/FirstPersonCharacter5CFF071B4DABDB18B0F15382BFF0328F.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.10.10-18.01.07:753][742]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.10.10-18.01.10:523][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.01.10:523][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-18.01.10:523][985]PIE: New page: PIE session: Test (10 Oct 2016 19:01:10)
+[2016.10.10-18.01.10:523][985]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-18.01.10:540][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016405s)
+[2016.10.10-18.01.10:541][985]LogAIModule: Creating AISystem for world Test
+[2016.10.10-18.01.10:541][985]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2016.10.10-18.01.10:541][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017780s)
+[2016.10.10-18.01.10:573][985]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-18.01.10:580][985]LogInit: FAudioDevice initialized.
+[2016.10.10-18.01.10:656][985]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-18.01.10:663][985]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-19.01.10
+[2016.10.10-18.01.10:664][985]LogWorld: Bringing up level for play took: 0.005411
+[2016.10.10-18.01.10:665][985]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.705
+[2016.10.10-18.01.10:665][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.01.16:467][666]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_Event_OtherActor, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0310
+[2016.10.10-18.01.16:467][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_Event_OtherActor, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor Pick Up Sprint in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_Event_OtherActor, but PickUpSprint_202 is pending kill
+[2016.10.10-18.01.16:467][666]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_Event_OtherActor, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0104
+[2016.10.10-18.01.16:467][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_Event_OtherActor, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor Pick Up Sprint in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_Event_OtherActor, but PickUpSprint_202 is pending kill
+[2016.10.10-18.01.19:584][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.01.19:647][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.02.20:683][229]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.10.10-18.02.20:879][229]BlueprintEditorCompileResults: Info [2970.79] Compile of FirstPersonCharacter successful! [in 195 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.10.10-18.02.23:598][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.02.23:598][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-18.02.23:598][481]PIE: New page: PIE session: Test (10 Oct 2016 19:02:23)
+[2016.10.10-18.02.23:598][481]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-18.02.23:614][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016319s)
+[2016.10.10-18.02.23:615][481]LogAIModule: Creating AISystem for world Test
+[2016.10.10-18.02.23:615][481]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2016.10.10-18.02.23:616][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017399s)
+[2016.10.10-18.02.23:649][481]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-18.02.23:657][481]LogInit: FAudioDevice initialized.
+[2016.10.10-18.02.23:721][481]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-18.02.23:726][481]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-19.02.23
+[2016.10.10-18.02.23:727][481]LogWorld: Bringing up level for play took: 0.004382
+[2016.10.10-18.02.23:728][481]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.231
+[2016.10.10-18.02.23:728][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.02.31:410][391]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:017A
+[2016.10.10-18.02.31:410][391]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor Pick Up Sprint in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+[2016.10.10-18.02.31:410][391]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0109
+[2016.10.10-18.02.31:410][391]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor Pick Up Sprint in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+[2016.10.10-18.02.31:784][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.02.31:852][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.03.49:003][ 66]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.10.10-18.03.49:214][ 66]BlueprintEditorCompileResults: Info [3059.12] Compile of FirstPersonCharacter successful! [in 211 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.10.10-18.04.14:318][650]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.10.10-18.04.14:511][650]BlueprintEditorCompileResults: Info [3084.42] Compile of FirstPersonCharacter successful! [in 192 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.10.10-18.04.21:535][143]LogSavePackage: Save=116.37ms
+[2016.10.10-18.04.21:535][143]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/FirstPersonCharacterD5B4B279493746CC56CE798127AE06A0.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.10.10-18.04.21:536][143]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.10.10-18.04.25:802][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.04.25:802][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-18.04.25:802][532]PIE: New page: PIE session: Test (10 Oct 2016 19:04:25)
+[2016.10.10-18.04.25:802][532]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-18.04.25:818][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015939s)
+[2016.10.10-18.04.25:819][532]LogAIModule: Creating AISystem for world Test
+[2016.10.10-18.04.25:819][532]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2016.10.10-18.04.25:819][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.016949s)
+[2016.10.10-18.04.25:852][532]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-18.04.25:859][532]LogInit: FAudioDevice initialized.
+[2016.10.10-18.04.25:908][532]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-18.04.25:912][532]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-19.04.25
+[2016.10.10-18.04.25:913][532]LogWorld: Bringing up level for play took: 0.004273
+[2016.10.10-18.04.25:914][532]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.045
+[2016.10.10-18.04.25:914][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.04.29:000][890]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-18.04.29:000][890]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.10-18.04.29:159][909]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-18.04.29:159][909]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.10-18.04.34:689][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.04.34:753][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.04.51:757][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/PickUpSprint" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpSprint.uasset" SILENT=true
+[2016.10.10-18.04.51:785][675]LogSavePackage: Save=21.49ms
+[2016.10.10-18.04.51:785][675]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/PickUpSprint12C3C6FF43688893715D5FB347D76FAC.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpSprint.uasset'
+[2016.10.10-18.04.51:786][675]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/PickUpSprint.uasset
+[2016.10.10-18.04.57:229][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.04.57:229][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-18.04.57:229][136]PIE: New page: PIE session: Test (10 Oct 2016 19:04:57)
+[2016.10.10-18.04.57:229][136]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-18.04.57:246][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016573s)
+[2016.10.10-18.04.57:247][136]LogAIModule: Creating AISystem for world Test
+[2016.10.10-18.04.57:247][136]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2016.10.10-18.04.57:247][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.017606s)
+[2016.10.10-18.04.57:279][136]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-18.04.57:286][136]LogInit: FAudioDevice initialized.
+[2016.10.10-18.04.57:333][136]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-18.04.57:338][136]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-19.04.57
+[2016.10.10-18.04.57:339][136]LogWorld: Bringing up level for play took: 0.004406
+[2016.10.10-18.04.57:340][136]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.62
+[2016.10.10-18.04.57:340][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.04.59:967][439]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-18.05.06:167][178]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:00AA
+[2016.10.10-18.05.06:167][178]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+[2016.10.10-18.05.06:167][178]LogScript:Warning: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:011E
+[2016.10.10-18.05.06:167][178]PIE:Error: Error Blueprint Runtime Error: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: SpawnActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access PickUpSprint_202 via property K2Node_DynamicCast_AsPick_Up_Sprint, but PickUpSprint_202 is pending kill
+[2016.10.10-18.05.06:167][178]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Spawn me 
+[2016.10.10-18.05.07:565][345]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-18.05.07:565][345]LogBlueprintUserMessages: [FirstPersonProjectile_C_26] Hello
+[2016.10.10-18.05.07:574][346]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-18.05.07:574][346]LogBlueprintUserMessages: [FirstPersonProjectile_C_26] Hello
+[2016.10.10-18.05.10:246][666]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.10-18.05.10:246][666]LogBlueprintUserMessages: [FirstPersonProjectile_C_31] Hello
+[2016.10.10-18.05.12:240][904]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.10-18.05.12:240][904]LogBlueprintUserMessages: [FirstPersonProjectile_C_39] Hello
+[2016.10.10-18.05.13:457][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.05.13:523][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.06.01:654][484]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.10.10-18.06.01:655][484]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.10.10-18.07.47:657][936]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.10.10-18.07.47:848][936]BlueprintEditorCompileResults: Info [3297.76] Compile of FirstPersonCharacter successful! [in 190 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.10.10-18.07.51:378][256]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.07.51:378][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-18.07.51:379][256]PIE: New page: PIE session: Test (10 Oct 2016 19:07:51)
+[2016.10.10-18.07.51:379][256]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-18.07.51:396][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017088s)
+[2016.10.10-18.07.51:396][256]LogAIModule: Creating AISystem for world Test
+[2016.10.10-18.07.51:397][256]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2016.10.10-18.07.51:397][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.018141s)
+[2016.10.10-18.07.51:430][256]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-18.07.51:437][256]LogInit: FAudioDevice initialized.
+[2016.10.10-18.07.51:501][256]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-18.07.51:506][256]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-19.07.51
+[2016.10.10-18.07.51:507][256]LogWorld: Bringing up level for play took: 0.004479
+[2016.10.10-18.07.51:508][256]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.452
+[2016.10.10-18.07.51:508][256]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.07.53:566][495]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.10-18.08.02:597][573]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Spawn me 
+[2016.10.10-18.08.07:782][194]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.10-18.08.07:782][194]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.10.10-18.08.07:958][215]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.10-18.08.07:958][215]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.10-18.08.08:668][300]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.08.08:727][300]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.08.21:340][758]LogEditorViewport: Clicking on Actor (LMB): PickUpSprint_C (PickUpSprint)
+[2016.10.10-18.08.32:560][ 80]Cmd: TRANSACTION UNDO
+[2016.10.10-18.08.32:561][ 80]LogEditorTransaction: Undo Set actor location
+[2016.10.10-18.08.33:027][120]Cmd: TRANSACTION UNDO
+[2016.10.10-18.08.33:027][120]LogEditorTransaction: Undo Set actor location
+[2016.10.10-18.08.34:495][291]Cmd: TRANSACTION UNDO
+[2016.10.10-18.08.34:495][291]LogEditorTransaction: Undo Set actor location
+[2016.10.10-18.08.49:312][614]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.10.10-18.08.49:502][614]BlueprintEditorCompileResults: Info [3359.41] Compile of FirstPersonCharacter successful! [in 190 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.10.10-18.08.51:816][816]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.08.51:816][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.10-18.08.51:816][816]PIE: New page: PIE session: Test (10 Oct 2016 19:08:51)
+[2016.10.10-18.08.51:817][816]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.10-18.08.51:836][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019537s)
+[2016.10.10-18.08.51:837][816]LogAIModule: Creating AISystem for world Test
+[2016.10.10-18.08.51:837][816]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2016.10.10-18.08.51:837][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020744s)
+[2016.10.10-18.08.51:882][816]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.10-18.08.51:891][816]LogInit: FAudioDevice initialized.
+[2016.10.10-18.08.51:940][816]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.10-18.08.51:945][816]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.10-19.08.51
+[2016.10.10-18.08.51:946][816]LogWorld: Bringing up level for play took: 0.004637
+[2016.10.10-18.08.51:947][816]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.012
+[2016.10.10-18.08.51:947][816]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.09.00:478][825]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Spawn me 
+[2016.10.10-18.09.12:943][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.09.13:007][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.10-18.10.01:218][191]LogSavePackage: Save=1363.03ms
+[2016.10.10-18.10.01:218][191]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Test_Auto3FDB8898B4861310BFDF98D9A227CF256.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Maps/Test_Auto3.umap'
+[2016.10.10-18.10.01:270][191]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Maps/Test_Auto3.umap
+[2016.10.10-18.10.01:272][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Test' took 1.454
+[2016.10.10-18.10.01:272][191]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.454
+[2016.10.10-18.10.01:274][191]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2016.10.10-18.10.01:304][191]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2016.10.10-18.10.01:304][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2016.10.10-18.10.01:425][191]LogSavePackage: Save=114.20ms
+[2016.10.10-18.10.01:425][191]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/FirstPersonCharacter_Auto34075C94346D2335E336B188310EC004A.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2016.10.10-18.10.01:493][191]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2016.10.10-18.10.01:493][191]LogFileHelpers: Auto-saving content packages took 0.220
+[2016.10.10-18.10.05:628][423]LogSavePackage: Save=106.95ms
+[2016.10.10-18.10.05:628][423]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/FirstPersonCharacterFA8E6E82484E2110AAEE84AEC3E4A265.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.10.10-18.10.05:633][423]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.10.10-18.10.11:107][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.10-18.10.11:246][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.10-18.10.11:340][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.10-18.10.11:423][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.10-18.10.14:383][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Test" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.10-18.10.15:618][918]LogSavePackage: Save=1217.74ms
+[2016.10.10-18.10.15:618][918]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/TestFC4E742B46EB2D173EF0E094F0DDF243.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap'
+[2016.10.10-18.10.15:621][918]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap
+[2016.10.10-18.10.15:649][918]LogFileHelpers: Saving map 'Test' took 1.324
+[2016.10.10-18.10.15:728][918]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.10-18.10.15:943][919]Cmd: QUIT_EDITOR
+[2016.10.10-18.10.16:734][919]LogExit: Preparing to exit.
+[2016.10.10-18.10.17:354][919]LogExit: Editor shut down
+[2016.10.10-18.10.17:355][919]LogExit: Transaction tracking system shut down
+[2016.10.10-18.10.17:727][919]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.10-18.10.17:727][919]LogExit: Object subsystem successfully closed.
+[2016.10.10-18.10.17:758][919]LogD3D11RHI: Shutdown
+[2016.10.10-18.10.17:759][919]LogD3D11RHI: CleanupD3DDevice
+[2016.10.10-18.10.17:903][919]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.10-18.10.17:939][919]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.10-18.10.17:939][919]LogModuleManager: Shutting down and abandoning module StatsViewer (214)
+[2016.10.10-18.10.17:940][919]LogModuleManager: Shutting down and abandoning module BlueprintGraph (213)
+[2016.10.10-18.10.17:940][919]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (212)
+[2016.10.10-18.10.17:941][919]LogModuleManager: Shutting down and abandoning module CrashTracker (211)
+[2016.10.10-18.10.17:941][919]LogModuleManager: Shutting down and abandoning module SceneOutliner (210)
+[2016.10.10-18.10.17:941][919]LogModuleManager: Shutting down and abandoning module WidgetCarousel (209)
+[2016.10.10-18.10.17:941][919]LogModuleManager: Shutting down and abandoning module AddContentDialog (208)
+[2016.10.10-18.10.17:947][919]LogModuleManager: Shutting down and abandoning module GameplayTags (207)
+[2016.10.10-18.10.17:947][919]LogModuleManager: Shutting down and abandoning module EditorWidgets (206)
+[2016.10.10-18.10.17:947][919]LogModuleManager: Shutting down and abandoning module CollectionManager (205)
+[2016.10.10-18.10.17:948][919]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.10-18.10.17:948][919]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.10-18.10.17:949][919]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.10-18.10.17:949][919]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.10-18.10.17:949][919]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.10-18.10.17:949][919]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.10-18.10.17:949][919]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.10-18.10.17:950][919]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.10-18.10.17:950][919]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.10-18.10.17:950][919]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.10-18.10.17:951][919]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.10-18.10.17:951][919]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.10-18.10.17:951][919]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.10-18.10.17:952][919]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.10-18.10.17:954][919]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.10-18.10.17:954][919]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.10-18.10.17:954][919]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.10-18.10.17:954][919]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.10-18.10.17:955][919]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.10-18.10.17:957][919]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.10-18.10.17:958][919]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.10-18.10.17:959][919]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.10-18.10.17:959][919]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.10-18.10.17:959][919]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.10-18.10.17:959][919]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.10-18.10.18:930][919]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.10-18.10.18:930][919]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.10-18.10.18:930][919]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.10-18.10.18:930][919]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.10-18.10.18:931][919]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.10-18.10.18:931][919]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.10-18.10.18:931][919]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.10-18.10.18:932][919]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.10-18.10.18:932][919]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.10-18.10.18:933][919]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.10-18.10.18:933][919]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.10-18.10.18:933][919]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.10-18.10.18:933][919]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.10-18.10.18:933][919]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.10-18.10.18:933][919]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.10-18.10.18:934][919]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.10-18.10.18:934][919]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.10-18.10.18:934][919]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.10-18.10.18:935][919]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.10-18.10.18:935][919]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.10-18.10.18:936][919]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.10-18.10.18:936][919]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.10-18.10.18:937][919]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.10-18.10.18:937][919]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.10-18.10.18:937][919]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.10-18.10.18:981][919]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.10-18.10.18:982][919]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.10-18.10.18:983][919]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.10-18.10.18:985][919]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.10-18.10.18:985][919]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.10-18.10.18:986][919]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.10-18.10.18:986][919]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.10-18.10.18:988][919]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.10-18.10.18:988][919]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.10-18.10.18:988][919]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.10-18.10.18:990][919]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.10-18.10.18:990][919]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.10-18.10.18:990][919]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.10-18.10.18:991][919]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.10-18.10.18:992][919]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.10-18.10.18:993][919]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.10-18.10.18:994][919]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.10-18.10.18:995][919]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.10-18.10.18:995][919]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.10-18.10.19:111][919]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.10-18.10.19:113][919]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.10-18.10.19:115][919]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.10-18.10.19:115][919]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.10-18.10.19:115][919]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.10-18.10.19:115][919]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.10-18.10.19:115][919]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.10-18.10.19:117][919]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.10-18.10.19:117][919]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.10-18.10.19:118][919]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.10-18.10.19:118][919]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.10-18.10.19:118][919]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.10-18.10.19:118][919]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.10-18.10.19:120][919]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.10-18.10.19:121][919]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.10-18.10.19:122][919]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.10-18.10.19:122][919]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.10-18.10.19:122][919]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.10-18.10.19:122][919]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.10-18.10.19:122][919]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.10-18.10.19:123][919]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.10-18.10.19:124][919]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.10-18.10.19:124][919]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.10-18.10.19:127][919]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.10-18.10.19:130][919]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.10-18.10.19:132][919]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.10-18.10.19:232][919]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.10-18.10.19:232][919]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.10-18.10.19:232][919]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.10-18.10.19:232][919]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.10-18.10.19:232][919]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.10-18.10.19:233][919]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.10-18.10.19:233][919]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.10-18.10.19:233][919]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.10-18.10.19:234][919]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.10-18.10.19:234][919]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.10-18.10.19:234][919]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.10-18.10.19:234][919]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.10-18.10.19:234][919]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.10-18.10.19:237][919]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.10-18.10.19:237][919]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.10-18.10.19:237][919]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.10-18.10.19:238][919]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.10-18.10.19:238][919]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.10-18.10.19:238][919]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.10-18.10.19:240][919]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.10-18.10.19:242][919]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.10-18.10.19:243][919]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.10-18.10.19:245][919]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.10-18.10.19:245][919]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.10-18.10.19:251][919]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.10-18.10.19:251][919]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.10-18.10.19:251][919]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.10-18.10.19:251][919]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.10-18.10.19:251][919]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.10-18.10.19:252][919]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.10-18.10.19:260][919]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.10-18.10.19:511][919]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.10-18.10.19:511][919]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.10-18.10.19:511][919]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.10-18.10.19:512][919]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.10-18.10.19:540][919]LogDerivedDataCache: Shutdown
+[2016.10.10-18.10.19:540][919]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.10-18.10.19:541][919]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.10-18.10.19:541][919]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.10-18.10.19:541][919]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.10-18.10.19:542][919]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.10-18.10.19:543][919]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.10-18.10.19:544][919]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.10-18.10.19:544][919]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.10-18.10.19:544][919]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.10-18.10.19:544][919]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.10-18.10.21:048][919]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.10-18.10.21:049][919]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.10-18.10.21:050][919]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.10-18.10.21:050][919]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.10-18.10.21:051][919]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.10-18.10.21:051][919]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.10-18.10.21:051][919]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.10-18.10.21:076][919]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.10-18.10.21:077][919]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.10-18.10.21:081][919]LogExit: Exiting.
+[2016.10.10-18.10.21:086][919]Log file closed, 10/10/16 19:10:21

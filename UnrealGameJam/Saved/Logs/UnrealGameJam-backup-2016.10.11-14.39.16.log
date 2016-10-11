@@ -1,0 +1,1262 @@
+﻿Log file open, 10/11/16 13:49:05
+LogInit:Display: Running engine for game: UnrealGameJam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1096172784) SRandInit(-1096172783).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074868
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.11-12.49.05:936][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.11-12.49.05:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.11-12.49.05:945][  0]LogInit: Computer: DESKTOP-N6TRJQS
+[2016.10.11-12.49.05:945][  0]LogInit: User: Conor
+[2016.10.11-12.49.05:945][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.11-12.49.05:945][  0]LogInit: High frequency timer resolution =3.312790 MHz
+[2016.10.11-12.49.05:945][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.11-12.49.05:945][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.11-12.49.05:945][  0]LogMemory: Process Physical Memory: 190.68 MB used, 190.68 MB peak
+[2016.10.11-12.49.05:945][  0]LogMemory: Process Virtual Memory: 195.16 MB used, 195.16 MB peak
+[2016.10.11-12.49.05:945][  0]LogMemory: Physical Memory: 5745.96 MB used, 8145.47 MB total
+[2016.10.11-12.49.05:945][  0]LogMemory: Virtual Memory: 553.30 MB used, 134217728.00 MB total
+[2016.10.11-12.49.05:972][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.10.11-12.49.06:316][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.11-12.49.06:346][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2016.10.11-12.49.06:346][  0]LogD3D11RHI:       1505/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.11-12.49.06:347][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.11-12.49.06:347][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.11-12.49.06:347][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.11-12.49.06:351][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.11-12.49.06:351][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.11-12.49.06:351][  0]LogWindows: EnumDisplayDevices:
+[2016.10.11-12.49.06:351][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2016.10.11-12.49.06:352][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.11-12.49.06:352][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.11-12.49.06:352][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.10.11-12.49.06:352][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2016.10.11-12.49.06:352][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2016.10.11-12.49.06:352][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.10.11-12.49.06:352][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
+[2016.10.11-12.49.06:365][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.11-12.49.06:382][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.11-12.49.06:382][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (D:/Repositories/UnrealGameJam/UnrealGameJam/Intermediate/Shaders/WorkingDirectory/11224/).
+[2016.10.11-12.49.06:382][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Conor/AppData/Local/Temp/UnrealShaderWorkingDir/1724D98044AA6500820CBF80A997CAA2/'.
+[2016.10.11-12.49.06:382][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.11-12.49.07:231][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.11-12.49.07:241][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.11-12.49.07:250][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.11-12.49.07:259][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.11-12.49.07:268][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.11-12.49.07:276][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.11-12.49.07:284][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.11-12.49.07:291][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.11-12.49.07:298][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.11-12.49.07:305][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.11-12.49.07:312][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.11-12.49.07:328][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.11-12.49.07:328][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.11-12.49.07:329][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.11-12.49.07:350][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.11-12.49.07:357][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.11-12.49.07:364][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.11-12.49.07:378][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.11-12.49.07:395][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.11-12.49.07:395][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.11-12.49.07:485][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.11-12.49.07:542][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.11-12.49.07:542][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.11-12.49.07:542][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repositories/UnrealGameJam/UnrealGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.11-12.49.07:542][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.11-12.49.07:542][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repositories/UnrealGameJam/UnrealGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.11-12.49.07:542][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.11-12.49.07:569][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.11-12.49.07:581][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Conor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.11-12.49.07:804][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.11-12.49.07:804][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.11-12.49.07:972][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.11-12.49.07:972][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.11-12.49.07:972][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.11-12.49.08:191][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.10.11-12.49.08:215][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021148 seconds
+[2016.10.11-12.49.08:220][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.11-12.49.08:220][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.10.11-12.49.08:220][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.11-12.49.08:227][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.11-12.49.08:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.11-12.49.08:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.11-12.49.08:963][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.11-12.49.09:187][  0]SourceControl: Info Source control is disabled
+[2016.10.11-12.49.09:226][  0]SourceControl: Info Source control is disabled
+[2016.10.11-12.49.09:236][  0]SourceControl: Info Source control is disabled
+[2016.10.11-12.49.09:244][  0]SourceControl: Info Source control is disabled
+[2016.10.11-12.49.09:452][  0]LogEngine: Initializing Engine...
+[2016.10.11-12.49.09:453][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.11-12.49.09:453][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.11-12.49.09:574][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.11-12.49.09:587][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.49.09:597][  0]LogInit: FAudioDevice initialized.
+[2016.10.11-12.49.09:620][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.11-12.49.09:627][  0]LogInit: Texture streaming: Enabled
+[2016.10.11-12.49.09:651][  0]LogInit: Transaction tracking system initialized
+[2016.10.11-12.49.09:676][  0]BlueprintLog: New page: Editor Load
+[2016.10.11-12.49.09:751][  0]LocalizationService: Info Localization service is disabled
+[2016.10.11-12.49.09:813][  0]LogConsoleResponse:Display: 
+[2016.10.11-12.49.09:904][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.11-12.49.09:904][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.11-12.49.10:007][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/' took 0.02s
+[2016.10.11-12.49.10:007][  0]SourceControl: Info Source control is disabled
+[2016.10.11-12.49.10:007][  0]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.11-12.49.10:007][  0]LogEditorServer:Warning: Can't find file 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.10.11-12.49.10:007][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.11-12.49.10:044][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.291ms to complete.
+[2016.10.11-12.49.10:044][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.037
+[2016.10.11-12.49.10:152][  0]LogCollectionManager: Loaded 0 collections in 0.002221 seconds
+[2016.10.11-12.49.10:197][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Collections/' took 0.01s
+[2016.10.11-12.49.10:197][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/Developers/Conor/Collections/' took 0.01s
+[2016.10.11-12.49.10:197][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/Collections/' took 0.01s
+[2016.10.11-12.49.10:198][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.10.11-12.49.10:215][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2047 classes and 369 folders.
+[2016.10.11-12.49.10:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.11-12.49.10:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.11-12.49.10:219][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.11-12.49.10:224][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.11-12.49.10:259][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.11-12.49.10:264][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.11-12.49.10:277][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.11-12.49.10:281][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.11-12.49.10:307][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.11-12.49.10:307][  0]LogLoad: Full Startup: 5.13 seconds (BP compile: 0.00 seconds)
+[2016.10.11-12.49.10:307][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.11-12.49.10:316][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.11-12.49.10:316][  0]LogOcInput: OculusInput pre-init called
+[2016.10.11-12.49.10:334][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.11-12.49.10:466][  1]LogAssetRegistry: Asset discovery search completed in 2.2961 seconds
+[2016.10.11-12.49.10:466][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.11-12.49.10:466][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2016.10.11-12.49.10:489][  2]LogRenderer: Reallocating scene render targets to support 924x568 (Frame:2).
+[2016.10.11-12.49.13:567][329]LogRenderer: Reallocating scene render targets to support 1164x624 (Frame:332).
+[2016.10.11-12.49.20:423][ 33]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.49.20:887][ 66]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.11-12.49.20:887][ 66]LightingResults: New page: Lighting Build
+[2016.10.11-12.49.20:891][ 66]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2016.10.11-12.49.20:891][ 66]LoadErrors: New page: Loading map: Test.umap
+[2016.10.11-12.49.20:892][ 66]MapCheck: New page: Map Check
+[2016.10.11-12.49.20:892][ 66]LightingResults: New page: Lighting Build
+[2016.10.11-12.49.20:910][ 66]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.11-12.49.20:941][ 66]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.11-12.49.20:993][ 66]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.014ms to complete.
+[2016.10.11-12.49.20:993][ 66]LogFileHelpers: Loading map 'Test' took 0.107
+[2016.10.11-12.49.27:485][613]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 111 classes and 0 folders.
+[2016.10.11-12.50.55:895][343]LogRenderer: Reallocating scene render targets to support 1164x712 (Frame:4997).
+[2016.10.11-12.52.32:462][203]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-12.52.32:613][203]BlueprintEditorCompileResults: Info [0207.43] Compile of AICharacter successful! [in 151 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-12.52.35:857][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.52.35:857][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-12.52.35:858][519]PIE: New page: PIE session: Test (11 Oct 2016 13:52:35)
+[2016.10.11-12.52.35:858][519]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-12.52.35:890][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031474s)
+[2016.10.11-12.52.35:890][519]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.52.35:890][519]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2016.10.11-12.52.35:891][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.032692s)
+[2016.10.11-12.52.35:925][519]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.52.35:933][519]LogInit: FAudioDevice initialized.
+[2016.10.11-12.52.36:000][519]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-12.52.36:006][519]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-13.52.36
+[2016.10.11-12.52.36:006][519]LogWorld: Bringing up level for play took: 0.005028
+[2016.10.11-12.52.36:014][519]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2016.10.11-12.52.36:015][519]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.47
+[2016.10.11-12.52.36:015][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.52.38:027][747]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-12.52.38:028][747]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-12.52.38:453][797]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-12.52.38:453][797]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-12.52.38:855][845]LogBlueprintUserMessages: [AICharacter_C_0] -50
+[2016.10.11-12.52.38:856][845]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.11-12.52.39:277][895]LogBlueprintUserMessages: [AICharacter_C_0] -100
+[2016.10.11-12.52.39:277][895]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.11-12.52.39:478][919]LogBlueprintUserMessages: [AICharacter_C_0] -150
+[2016.10.11-12.52.39:478][919]LogBlueprintUserMessages: [FirstPersonProjectile_C_4] Hello
+[2016.10.11-12.52.39:646][939]LogBlueprintUserMessages: [AICharacter_C_0] -200
+[2016.10.11-12.52.39:646][939]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.11-12.52.39:840][962]LogBlueprintUserMessages: [AICharacter_C_0] -250
+[2016.10.11-12.52.39:840][962]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.10.11-12.52.39:991][980]LogBlueprintUserMessages: [AICharacter_C_0] -300
+[2016.10.11-12.52.39:991][980]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.11-12.52.40:151][999]LogBlueprintUserMessages: [AICharacter_C_0] -350
+[2016.10.11-12.52.40:151][999]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Hello
+[2016.10.11-12.52.40:295][ 16]LogBlueprintUserMessages: [AICharacter_C_0] -400
+[2016.10.11-12.52.40:295][ 16]LogBlueprintUserMessages: [FirstPersonProjectile_C_9] Hello
+[2016.10.11-12.52.40:438][ 33]LogBlueprintUserMessages: [AICharacter_C_0] -450
+[2016.10.11-12.52.40:438][ 33]LogBlueprintUserMessages: [FirstPersonProjectile_C_10] Hello
+[2016.10.11-12.52.40:589][ 51]LogBlueprintUserMessages: [AICharacter_C_0] -500
+[2016.10.11-12.52.40:589][ 51]LogBlueprintUserMessages: [FirstPersonProjectile_C_11] Hello
+[2016.10.11-12.52.40:724][ 67]LogBlueprintUserMessages: [AICharacter_C_0] -550
+[2016.10.11-12.52.40:724][ 67]LogBlueprintUserMessages: [FirstPersonProjectile_C_12] Hello
+[2016.10.11-12.52.40:875][ 85]LogBlueprintUserMessages: [AICharacter_C_0] -600
+[2016.10.11-12.52.40:875][ 85]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] Hello
+[2016.10.11-12.52.41:011][101]LogBlueprintUserMessages: [AICharacter_C_0] -650
+[2016.10.11-12.52.41:011][101]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] Hello
+[2016.10.11-12.52.41:170][120]LogBlueprintUserMessages: [AICharacter_C_0] -700
+[2016.10.11-12.52.41:170][120]LogBlueprintUserMessages: [FirstPersonProjectile_C_15] Hello
+[2016.10.11-12.52.41:338][140]LogBlueprintUserMessages: [AICharacter_C_0] -750
+[2016.10.11-12.52.41:338][140]LogBlueprintUserMessages: [FirstPersonProjectile_C_16] Hello
+[2016.10.11-12.52.41:532][163]LogBlueprintUserMessages: [AICharacter_C_0] -800
+[2016.10.11-12.52.41:532][163]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] Hello
+[2016.10.11-12.52.44:901][567]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100
+[2016.10.11-12.52.48:901][ 46]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.52.48:934][ 46]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.53.52:483][199]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-12.53.52:602][199]BlueprintEditorCompileResults: Info [0287.42] Compile of AICharacter successful! [in 119 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-12.53.54:976][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.53.54:976][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-12.53.54:976][413]PIE: New page: PIE session: Test (11 Oct 2016 13:53:54)
+[2016.10.11-12.53.54:976][413]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-12.53.54:999][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023407s)
+[2016.10.11-12.53.55:001][413]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.53.55:001][413]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2016.10.11-12.53.55:001][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.024575s)
+[2016.10.11-12.53.55:035][413]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.53.55:042][413]LogInit: FAudioDevice initialized.
+[2016.10.11-12.53.55:091][413]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-12.53.55:096][413]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-13.53.55
+[2016.10.11-12.53.55:097][413]LogWorld: Bringing up level for play took: 0.004478
+[2016.10.11-12.53.55:098][413]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.613
+[2016.10.11-12.53.55:098][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.53.59:360][915]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-12.53.59:360][915]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-12.53.59:697][955]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-12.53.59:697][955]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-12.54.01:546][176]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-12.54.01:546][176]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.11-12.54.03:648][426]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-12.54.03:648][426]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Hello
+[2016.10.11-12.54.08:251][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.54.08:284][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.54.57:155][717]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-12.54.57:278][717]BlueprintEditorCompileResults: Info [0352.10] Compile of AICharacter successful! [in 122 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-12.54.59:552][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.54.59:553][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-12.54.59:553][931]PIE: New page: PIE session: Test (11 Oct 2016 13:54:59)
+[2016.10.11-12.54.59:553][931]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-12.54.59:574][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020854s)
+[2016.10.11-12.54.59:574][931]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.54.59:575][931]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2016.10.11-12.54.59:575][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.022073s)
+[2016.10.11-12.54.59:607][931]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.54.59:615][931]LogInit: FAudioDevice initialized.
+[2016.10.11-12.54.59:669][931]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-12.54.59:676][931]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-13.54.59
+[2016.10.11-12.54.59:677][931]LogWorld: Bringing up level for play took: 0.006453
+[2016.10.11-12.54.59:679][931]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.806
+[2016.10.11-12.54.59:679][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.55.03:082][330]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-12.55.03:082][330]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-12.55.03:224][347]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-12.55.03:224][347]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-12.55.04:808][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.55.04:838][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.55.36:703][  7]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-12.55.36:820][  7]BlueprintEditorCompileResults: Info [0391.64] Compile of AICharacter successful! [in 117 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-12.55.39:694][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.55.39:694][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-12.55.39:694][281]PIE: New page: PIE session: Test (11 Oct 2016 13:55:39)
+[2016.10.11-12.55.39:694][281]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-12.55.39:713][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019680s)
+[2016.10.11-12.55.39:714][281]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.55.39:714][281]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2016.10.11-12.55.39:715][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020797s)
+[2016.10.11-12.55.39:745][281]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.55.39:751][281]LogInit: FAudioDevice initialized.
+[2016.10.11-12.55.39:803][281]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-12.55.39:808][281]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-13.55.39
+[2016.10.11-12.55.39:808][281]LogWorld: Bringing up level for play took: 0.004464
+[2016.10.11-12.55.39:809][281]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.675
+[2016.10.11-12.55.39:810][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.55.43:929][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.55.43:961][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.56.00:310][ 43]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-12.56.00:433][ 43]BlueprintEditorCompileResults: Info [0415.25] Compile of AICharacter successful! [in 123 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-12.56.02:558][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.56.02:559][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-12.56.02:559][233]PIE: New page: PIE session: Test (11 Oct 2016 13:56:02)
+[2016.10.11-12.56.02:559][233]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-12.56.02:582][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023462s)
+[2016.10.11-12.56.02:583][233]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.56.02:583][233]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2016.10.11-12.56.02:584][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.024747s)
+[2016.10.11-12.56.02:616][233]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.56.02:625][233]LogInit: FAudioDevice initialized.
+[2016.10.11-12.56.02:682][233]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-12.56.02:687][233]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-13.56.02
+[2016.10.11-12.56.02:688][233]LogWorld: Bringing up level for play took: 0.005059
+[2016.10.11-12.56.02:690][233]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.205
+[2016.10.11-12.56.02:690][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.56.07:415][789]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-12.56.07:415][789]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-12.56.07:575][808]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-12.56.07:575][808]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-12.56.10:701][182]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-12.56.10:701][182]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.11-12.56.10:844][199]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-12.56.10:844][199]LogBlueprintUserMessages: [FirstPersonProjectile_C_4] Hello
+[2016.10.11-12.56.11:719][304]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.56.11:752][304]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.58.24:320][687]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-12.58.24:445][687]BlueprintEditorCompileResults: Info [0559.27] Compile of AICharacter successful! [in 125 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-12.58.26:506][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.58.26:506][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-12.58.26:506][866]PIE: New page: PIE session: Test (11 Oct 2016 13:58:26)
+[2016.10.11-12.58.26:506][866]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-12.58.26:531][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025388s)
+[2016.10.11-12.58.26:532][866]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.58.26:532][866]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2016.10.11-12.58.26:533][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.026601s)
+[2016.10.11-12.58.26:573][866]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.58.26:581][866]LogInit: FAudioDevice initialized.
+[2016.10.11-12.58.26:635][866]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-12.58.26:640][866]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-13.58.26
+[2016.10.11-12.58.26:641][866]LogWorld: Bringing up level for play took: 0.004719
+[2016.10.11-12.58.26:643][866]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.158
+[2016.10.11-12.58.26:643][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.58.30:350][301]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-12.58.30:350][301]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-12.58.30:485][317]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-12.58.30:485][317]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-12.58.33:771][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.58.33:800][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.59.08:259][959]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-12.59.08:382][959]BlueprintEditorCompileResults: Info [0603.20] Compile of AICharacter successful! [in 122 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-12.59.11:189][204]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.59.11:189][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-12.59.11:189][204]PIE: New page: PIE session: Test (11 Oct 2016 13:59:11)
+[2016.10.11-12.59.11:189][204]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-12.59.11:208][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019138s)
+[2016.10.11-12.59.11:209][204]LogAIModule: Creating AISystem for world Test
+[2016.10.11-12.59.11:209][204]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2016.10.11-12.59.11:209][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020154s)
+[2016.10.11-12.59.11:239][204]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-12.59.11:245][204]LogInit: FAudioDevice initialized.
+[2016.10.11-12.59.11:294][204]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-12.59.11:300][204]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-13.59.11
+[2016.10.11-12.59.11:300][204]LogWorld: Bringing up level for play took: 0.004456
+[2016.10.11-12.59.11:301][204]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.816
+[2016.10.11-12.59.11:301][204]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.59.17:863][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-12.59.17:894][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.00.19:820][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Test' took 0.021
+[2016.10.11-13.00.19:821][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/AICharacter] ([1] browsable assets)...
+[2016.10.11-13.00.19:838][  8]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter]
+[2016.10.11-13.00.19:838][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/AICharacter]
+[2016.10.11-13.00.19:926][  8]LogSavePackage: Save=82.33ms
+[2016.10.11-13.00.19:926][  8]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/AICharacter_Auto13B3B4C954A9B8B206C234FB6DEF920C6.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AICharacter_Auto1.uasset'
+[2016.10.11-13.00.19:927][  8]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AICharacter_Auto1.uasset
+[2016.10.11-13.00.19:927][  8]LogFileHelpers: Auto-saving content packages took 0.107
+[2016.10.11-13.03.16:194][  9]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.03.16:322][  9]BlueprintEditorCompileResults: Info [0851.14] Compile of AICharacter successful! [in 128 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.03.28:022][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.03.28:022][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.03.28:022][917]PIE: New page: PIE session: Test (11 Oct 2016 14:03:28)
+[2016.10.11-13.03.28:022][917]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.03.28:043][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021197s)
+[2016.10.11-13.03.28:044][917]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.03.28:044][917]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2016.10.11-13.03.28:044][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.022286s)
+[2016.10.11-13.03.28:074][917]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.03.28:081][917]LogInit: FAudioDevice initialized.
+[2016.10.11-13.03.28:158][917]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.03.28:165][917]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.03.28
+[2016.10.11-13.03.28:166][917]LogWorld: Bringing up level for play took: 0.005814
+[2016.10.11-13.03.28:167][917]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.318
+[2016.10.11-13.03.28:167][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.03.32:369][411]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.03.32:369][411]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-13.03.32:513][428]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.03.32:513][428]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-13.03.33:626][561]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.03.33:626][561]LogBlueprintUserMessages: [FirstPersonProjectile_C_4] Hello
+[2016.10.11-13.03.33:778][579]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-13.03.33:778][579]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.11-13.03.34:696][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.03.34:730][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.16.52:187][676]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.16.52:748][676]BlueprintEditorCompileResults: Info [1667.57] Compile of AICharacter successful! [in 559 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.17.02:039][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.17.02:039][210]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.11-13.17.02:044][210]LogPlayLevel: [PlayLevel] Compiling AIController before play...
+[2016.10.11-13.17.02:181][210]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (1 blueprints)
+[2016.10.11-13.17.02:197][210]PIE: New page: PIE session: Test (11 Oct 2016 14:17:02)
+[2016.10.11-13.17.02:197][210]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.17.02:224][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027387s)
+[2016.10.11-13.17.02:225][210]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.17.02:225][210]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2016.10.11-13.17.02:225][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.028436s)
+[2016.10.11-13.17.02:253][210]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.17.02:261][210]LogInit: FAudioDevice initialized.
+[2016.10.11-13.17.02:302][210]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.17.02:312][210]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.17.02
+[2016.10.11-13.17.02:313][210]LogWorld: Bringing up level for play took: 0.009284
+[2016.10.11-13.17.02:315][210]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.169
+[2016.10.11-13.17.02:316][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.17.06:321][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.17.06:352][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.17.53:128][302]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.17.53:165][302]LogBlueprint:Error: Compiler Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.17.53:165][302]LogBlueprint:Error: Compiler Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.17.53:166][302]LogBlueprint:Error: Compiler Error Variable node  Get PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.17.53:166][302]LogBlueprint:Error: Compiler Error Variable node  Set PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.17.53:331][302]LogBlueprint:Warning: Compiler Warning [1728.15] Compile of AICharacter failed. 4 Fatal Issue(s) 0 Warning(s) [in 202 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.17.53:331][302]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.17.53:331][302]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.17.53:331][302]BlueprintEditorCompileResults:Error: Error Variable node  Get PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.17.53:331][302]BlueprintEditorCompileResults:Error: Error Variable node  Set PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.17.53:331][302]BlueprintEditorCompileResults:Warning: Warning [1728.15] Compile of AICharacter failed. 4 Fatal Issue(s) 0 Warning(s) [in 202 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.19.02:698][703]LogEditorTransaction: Undo Delete current selection
+[2016.10.11-13.19.03:007][720]LogEditorTransaction: Undo Create Pin Link
+[2016.10.11-13.19.03:506][765]LogEditorTransaction: Undo Move Node
+[2016.10.11-13.19.03:913][796]LogEditorTransaction: Undo Create Pin Link
+[2016.10.11-13.19.04:337][830]LogEditorTransaction: Undo Move Nodes
+[2016.10.11-13.19.04:705][861]LogEditorTransaction: Undo Delete current selection
+[2016.10.11-13.19.08:123][158]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.19.08:256][158]BlueprintEditorCompileResults: Info [1803.08] Compile of AICharacter successful! [in 132 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.20.21:468][813]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.20.21:507][813]LogBlueprint:Error: Compiler Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.20.21:507][813]LogBlueprint:Error: Compiler Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.20.21:508][813]LogBlueprint:Error: Compiler Error Variable node  Get PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.20.21:508][813]LogBlueprint:Error: Compiler Error Variable node  Set PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.20.21:670][813]LogBlueprint:Warning: Compiler Warning [1876.49] Compile of AICharacter failed. 4 Fatal Issue(s) 0 Warning(s) [in 202 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.20.21:670][813]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.20.21:670][813]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.20.21:670][813]BlueprintEditorCompileResults:Error: Error Variable node  Get PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.20.21:670][813]BlueprintEditorCompileResults:Error: Error Variable node  Set PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.20.21:670][813]BlueprintEditorCompileResults:Warning: Warning [1876.49] Compile of AICharacter failed. 4 Fatal Issue(s) 0 Warning(s) [in 202 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.21.39:915][191]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.21.39:961][191]LogBlueprint:Error: Compiler Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.21.39:961][191]LogBlueprint:Error: Compiler Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.21.39:961][191]LogBlueprint:Error: Compiler Error Variable node  Get PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.21.39:961][191]LogBlueprint:Error: Compiler Error Variable node  Set PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.21.40:133][191]LogBlueprint:Warning: Compiler Warning [1954.95] Compile of AICharacter failed. 4 Fatal Issue(s) 0 Warning(s) [in 217 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.21.40:133][191]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.21.40:133][191]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2016.10.11-13.21.40:133][191]BlueprintEditorCompileResults:Error: Error Variable node  Get PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.21.40:133][191]BlueprintEditorCompileResults:Error: Error Variable node  Set PlayerHealth  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.11-13.21.40:133][191]BlueprintEditorCompileResults:Warning: Warning [1954.95] Compile of AICharacter failed. 4 Fatal Issue(s) 0 Warning(s) [in 217 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.22.34:560][677]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_173
+[2016.10.11-13.22.34:560][677]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_173
+[2016.10.11-13.22.34:561][677]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_173.EdGraphPin_597''
+[2016.10.11-13.22.34:561][677]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_114 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_114
+[2016.10.11-13.22.34:561][677]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_114.EdGraphPin_550''
+[2016.10.11-13.22.34:562][677]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_173
+[2016.10.11-13.22.34:562][677]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_173
+[2016.10.11-13.22.34:562][677]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_173.EdGraphPin_598''
+[2016.10.11-13.22.34:562][677]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_200 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_200
+[2016.10.11-13.22.34:562][677]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_200.EdGraphPin_559''
+[2016.10.11-13.22.34:562][677]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_VariableGet_20 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_20
+[2016.10.11-13.22.34:562][677]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_20.EdGraphPin_560''
+[2016.10.11-13.22.39:934][ 75]LogEditorTransaction: Undo Move Node
+[2016.10.11-13.22.41:920][215]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_173
+[2016.10.11-13.22.41:920][215]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_173
+[2016.10.11-13.22.41:920][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_173.EdGraphPin_597''
+[2016.10.11-13.22.41:920][215]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_114 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_114
+[2016.10.11-13.22.41:920][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_114.EdGraphPin_550''
+[2016.10.11-13.22.41:921][215]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_173
+[2016.10.11-13.22.41:921][215]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:InpActEvt_Jump_K2Node_InputActionEvent_7.K2Node_CallFunction_173 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_173
+[2016.10.11-13.22.41:921][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_173.EdGraphPin_598''
+[2016.10.11-13.22.41:921][215]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_CallFunction_200 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_200
+[2016.10.11-13.22.41:921][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_200.EdGraphPin_559''
+[2016.10.11-13.22.41:921][215]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_VariableGet_20 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_20
+[2016.10.11-13.22.41:921][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_20.EdGraphPin_560''
+[2016.10.11-13.23.10:541][559]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.23.10:678][559]BlueprintEditorCompileResults: Info [2045.50] Compile of AICharacter successful! [in 136 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.23.19:759][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.23.19:760][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.23.19:760][380]PIE: New page: PIE session: Test (11 Oct 2016 14:23:19)
+[2016.10.11-13.23.19:760][380]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.23.19:780][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020418s)
+[2016.10.11-13.23.19:781][380]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.23.19:781][380]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2016.10.11-13.23.19:781][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.021488s)
+[2016.10.11-13.23.19:812][380]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.23.19:819][380]LogInit: FAudioDevice initialized.
+[2016.10.11-13.23.19:875][380]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.23.19:880][380]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.23.19
+[2016.10.11-13.23.19:881][380]LogWorld: Bringing up level for play took: 0.004548
+[2016.10.11-13.23.19:882][380]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.603
+[2016.10.11-13.23.19:882][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.23.25:550][ 52]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.23.25:550][ 52]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-13.23.25:926][ 97]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.23.25:926][ 97]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-13.23.26:359][149]LogBlueprintUserMessages: [AICharacter_C_0] -50
+[2016.10.11-13.23.26:359][149]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.11-13.23.26:718][192]LogBlueprintUserMessages: [AICharacter_C_0] -100
+[2016.10.11-13.23.26:718][192]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.11-13.23.27:108][238]LogBlueprintUserMessages: [AICharacter_C_0] -150
+[2016.10.11-13.23.27:108][238]LogBlueprintUserMessages: [FirstPersonProjectile_C_4] Hello
+[2016.10.11-13.23.27:283][259]LogBlueprintUserMessages: [AICharacter_C_0] -200
+[2016.10.11-13.23.27:283][259]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.11-13.23.27:416][275]LogBlueprintUserMessages: [AICharacter_C_0] -250
+[2016.10.11-13.23.27:416][275]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.10.11-13.23.27:567][293]LogBlueprintUserMessages: [AICharacter_C_0] -300
+[2016.10.11-13.23.27:567][293]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.11-13.23.28:316][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.23.28:347][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.23.49:024][ 16]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.23.49:161][ 16]BlueprintEditorCompileResults: Info [2083.98] Compile of AICharacter successful! [in 136 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.23.51:972][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.23.51:972][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.23.51:972][304]PIE: New page: PIE session: Test (11 Oct 2016 14:23:51)
+[2016.10.11-13.23.51:972][304]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.23.51:992][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020191s)
+[2016.10.11-13.23.51:993][304]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.23.51:993][304]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2016.10.11-13.23.51:993][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.021324s)
+[2016.10.11-13.23.52:022][304]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.23.52:029][304]LogInit: FAudioDevice initialized.
+[2016.10.11-13.23.52:069][304]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.23.52:074][304]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.23.52
+[2016.10.11-13.23.52:075][304]LogWorld: Bringing up level for play took: 0.004630
+[2016.10.11-13.23.52:076][304]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.409
+[2016.10.11-13.23.52:076][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.23.55:874][752]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.23.55:875][752]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.11-13.23.56:076][776]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=131.969 Y=-1088.850 Z=304.817] for [FirstPersonProjectile_C]
+[2016.10.11-13.23.58:092][ 18]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.23.58:092][ 18]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.11-13.23.58:510][ 68]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=207.728 Y=-723.649 Z=305.570] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.00:842][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.24.00:872][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.24.18:755][769]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.24.18:907][769]BlueprintEditorCompileResults: Info [2113.73] Compile of AICharacter successful! [in 151 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.24.25:693][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.24.25:694][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.24.25:694][460]PIE: New page: PIE session: Test (11 Oct 2016 14:24:25)
+[2016.10.11-13.24.25:694][460]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.24.25:713][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019288s)
+[2016.10.11-13.24.25:714][460]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.24.25:714][460]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2016.10.11-13.24.25:714][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020398s)
+[2016.10.11-13.24.25:746][460]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.24.25:753][460]LogInit: FAudioDevice initialized.
+[2016.10.11-13.24.25:802][460]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.24.25:812][460]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.24.25
+[2016.10.11-13.24.25:813][460]LogWorld: Bringing up level for play took: 0.008799
+[2016.10.11-13.24.25:815][460]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.67
+[2016.10.11-13.24.25:815][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.24.28:981][831]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=326.094 Y=-436.807 Z=300.023] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.29:140][850]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.24.29:140][850]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-13.24.29:606][906]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=300.162 Y=-101.849 Z=321.803] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.29:798][929]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=237.574 Y=-4.238 Z=314.771] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.30:032][957]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=141.703 Y=100.826 Z=311.390] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.30:232][981]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=51.077 Y=180.357 Z=306.352] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.30:390][  0]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-18.042 Y=247.754 Z=306.017] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.30:615][ 27]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-113.494 Y=337.012 Z=323.680] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.30:773][ 46]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-181.393 Y=406.610 Z=330.625] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.30:940][ 66]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-252.527 Y=476.482 Z=330.729] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.31:131][ 89]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-330.631 Y=556.945 Z=313.505] for [FirstPersonProjectile_C]
+[2016.10.11-13.24.31:623][148]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.24.31:623][148]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] Hello
+[2016.10.11-13.24.33:839][413]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.24.33:839][413]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] Hello
+[2016.10.11-13.24.33:972][429]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-13.24.33:972][429]LogBlueprintUserMessages: [FirstPersonProjectile_C_18] Hello
+[2016.10.11-13.24.34:372][477]LogBlueprintUserMessages: [AICharacter_C_1] -50
+[2016.10.11-13.24.34:372][477]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] Hello
+[2016.10.11-13.24.34:380][478]LogBlueprintUserMessages: [AICharacter_C_1] -100
+[2016.10.11-13.24.34:380][478]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] Hello
+[2016.10.11-13.24.34:873][537]LogBlueprintUserMessages: [AICharacter_C_1] -150
+[2016.10.11-13.24.34:873][537]LogBlueprintUserMessages: [FirstPersonProjectile_C_23] Hello
+[2016.10.11-13.24.35:015][554]LogBlueprintUserMessages: [AICharacter_C_1] -200
+[2016.10.11-13.24.35:015][554]LogBlueprintUserMessages: [FirstPersonProjectile_C_24] Hello
+[2016.10.11-13.24.35:173][573]LogBlueprintUserMessages: [AICharacter_C_1] -250
+[2016.10.11-13.24.35:173][573]LogBlueprintUserMessages: [FirstPersonProjectile_C_25] Hello
+[2016.10.11-13.24.35:358][595]LogBlueprintUserMessages: [AICharacter_C_1] -300
+[2016.10.11-13.24.35:358][595]LogBlueprintUserMessages: [FirstPersonProjectile_C_26] Hello
+[2016.10.11-13.24.36:031][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.24.36:063][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.25.31:638][409]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_VariableGet_0 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_0
+[2016.10.11-13.25.31:638][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_0.EdGraphPin_212''
+[2016.10.11-13.25.43:497][451]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.25.43:648][451]BlueprintEditorCompileResults: Info [2198.47] Compile of AICharacter successful! [in 151 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.25.46:670][772]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.25.46:670][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.25.46:670][772]PIE: New page: PIE session: Test (11 Oct 2016 14:25:46)
+[2016.10.11-13.25.46:670][772]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.25.46:691][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020758s)
+[2016.10.11-13.25.46:692][772]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.25.46:692][772]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2016.10.11-13.25.46:692][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.021837s)
+[2016.10.11-13.25.46:723][772]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.25.46:730][772]LogInit: FAudioDevice initialized.
+[2016.10.11-13.25.46:782][772]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.25.46:788][772]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.25.46
+[2016.10.11-13.25.46:789][772]LogWorld: Bringing up level for play took: 0.005284
+[2016.10.11-13.25.46:790][772]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 0.306
+[2016.10.11-13.25.46:790][772]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.25.48:522][976]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.25.48:522][976]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-13.25.48:814][  9]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.25.48:814][  9]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.11-13.25.48:926][ 22]LogBlueprintUserMessages: [AICharacter_C_0] -50
+[2016.10.11-13.25.48:926][ 22]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.11-13.25.49:353][ 73]LogBlueprintUserMessages: [AICharacter_C_0] -100
+[2016.10.11-13.25.49:353][ 73]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.10.11-13.25.49:496][ 90]LogBlueprintUserMessages: [AICharacter_C_0] -150
+[2016.10.11-13.25.49:496][ 90]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.11-13.25.49:789][125]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=60.503 Y=-1199.871 Z=310.299] for [FirstPersonProjectile_C]
+[2016.10.11-13.25.50:890][257]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.25.50:890][257]LogBlueprintUserMessages: [FirstPersonProjectile_C_10] Hello
+[2016.10.11-13.25.51:240][299]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-13.25.51:240][299]LogBlueprintUserMessages: [FirstPersonProjectile_C_12] Hello
+[2016.10.11-13.25.51:701][354]LogBlueprintUserMessages: [AICharacter_C_1] -50
+[2016.10.11-13.25.51:701][354]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] Hello
+[2016.10.11-13.25.51:858][373]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=195.522 Y=-1230.058 Z=310.750] for [FirstPersonProjectile_C]
+[2016.10.11-13.25.53:499][570]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.11-13.25.53:499][570]LogBlueprintUserMessages: [FirstPersonProjectile_C_18] Hello
+[2016.10.11-13.25.53:732][598]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.11-13.25.53:732][598]LogBlueprintUserMessages: [FirstPersonProjectile_C_19] Hello
+[2016.10.11-13.25.53:740][599]LogBlueprintUserMessages: [AICharacter_C_2] -50
+[2016.10.11-13.25.53:740][599]LogBlueprintUserMessages: [FirstPersonProjectile_C_19] Hello
+[2016.10.11-13.25.54:217][656]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=103.377 Y=-1127.461 Z=305.942] for [FirstPersonProjectile_C]
+[2016.10.11-13.25.54:674][711]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.11-13.25.54:674][711]LogBlueprintUserMessages: [FirstPersonProjectile_C_22] Hello
+[2016.10.11-13.25.56:541][935]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.11-13.25.56:541][935]LogBlueprintUserMessages: [FirstPersonProjectile_C_24] Hello
+[2016.10.11-13.25.57:083][  0]LogBlueprintUserMessages: [AICharacter_C_3] -50
+[2016.10.11-13.25.57:083][  0]LogBlueprintUserMessages: [FirstPersonProjectile_C_26] Hello
+[2016.10.11-13.25.57:733][ 78]LogBlueprintUserMessages: [AICharacter_C_3] -100
+[2016.10.11-13.25.57:733][ 78]LogBlueprintUserMessages: [FirstPersonProjectile_C_28] Hello
+[2016.10.11-13.25.58:043][115]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=126.034 Y=-1175.778 Z=308.428] for [FirstPersonProjectile_C]
+[2016.10.11-13.25.59:633][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.25.59:668][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.26.54:633][289]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.26.54:775][289]BlueprintEditorCompileResults: Info [2269.60] Compile of AICharacter successful! [in 141 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.26.57:795][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.26.57:795][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.26.57:795][604]PIE: New page: PIE session: Test (11 Oct 2016 14:26:57)
+[2016.10.11-13.26.57:795][604]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.26.57:815][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019672s)
+[2016.10.11-13.26.57:816][604]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.26.57:816][604]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2016.10.11-13.26.57:816][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020699s)
+[2016.10.11-13.26.57:845][604]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.26.57:851][604]LogInit: FAudioDevice initialized.
+[2016.10.11-13.26.57:891][604]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.26.57:896][604]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.26.57
+[2016.10.11-13.26.57:896][604]LogWorld: Bringing up level for play took: 0.004787
+[2016.10.11-13.26.57:898][604]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.587
+[2016.10.11-13.26.57:898][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.26.59:030][735]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.26.59:030][735]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-13.26.59:189][754]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.26.59:189][754]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-13.26.59:323][770]LogBlueprintUserMessages: [AICharacter_C_0] -50
+[2016.10.11-13.26.59:323][770]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Hello
+[2016.10.11-13.26.59:481][789]LogBlueprintUserMessages: [AICharacter_C_0] -100
+[2016.10.11-13.26.59:481][789]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Hello
+[2016.10.11-13.26.59:853][832]LogBlueprintUserMessages: [AICharacter_C_0] -150
+[2016.10.11-13.26.59:853][832]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.11-13.27.00:014][849]LogBlueprintUserMessages: [AICharacter_C_0] -200
+[2016.10.11-13.27.00:014][849]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.10.11-13.27.00:175][868]LogBlueprintUserMessages: [AICharacter_C_0] -250
+[2016.10.11-13.27.00:175][868]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.10.11-13.27.00:325][886]LogBlueprintUserMessages: [AICharacter_C_0] -300
+[2016.10.11-13.27.00:325][886]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Hello
+[2016.10.11-13.27.00:492][906]LogBlueprintUserMessages: [AICharacter_C_0] -350
+[2016.10.11-13.27.00:492][906]LogBlueprintUserMessages: [FirstPersonProjectile_C_9] Hello
+[2016.10.11-13.27.00:626][922]LogBlueprintUserMessages: [AICharacter_C_0] -400
+[2016.10.11-13.27.00:626][922]LogBlueprintUserMessages: [FirstPersonProjectile_C_10] Hello
+[2016.10.11-13.27.00:786][941]LogBlueprintUserMessages: [AICharacter_C_0] -450
+[2016.10.11-13.27.00:786][941]LogBlueprintUserMessages: [FirstPersonProjectile_C_11] Hello
+[2016.10.11-13.27.00:936][959]LogBlueprintUserMessages: [AICharacter_C_0] -500
+[2016.10.11-13.27.00:936][959]LogBlueprintUserMessages: [FirstPersonProjectile_C_12] Hello
+[2016.10.11-13.27.02:410][136]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.27.02:410][136]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] Hello
+[2016.10.11-13.27.03:353][249]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-13.27.03:353][249]LogBlueprintUserMessages: [FirstPersonProjectile_C_15] Hello
+[2016.10.11-13.27.03:460][262]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.11-13.27.03:460][262]LogBlueprintUserMessages: [FirstPersonProjectile_C_15] Hello
+[2016.10.11-13.27.03:610][280]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.11-13.27.03:610][280]LogBlueprintUserMessages: [FirstPersonProjectile_C_16] Hello
+[2016.10.11-13.27.03:644][284]LogBlueprintUserMessages: [AICharacter_C_2] Destroy the eemey
+[2016.10.11-13.27.05:335][487]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.11-13.27.05:336][487]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] Hello
+[2016.10.11-13.27.05:477][504]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.11-13.27.05:477][504]LogBlueprintUserMessages: [FirstPersonProjectile_C_18] Hello
+[2016.10.11-13.27.06:021][569]LogBlueprintUserMessages: [AICharacter_C_3] -50
+[2016.10.11-13.27.06:021][569]LogBlueprintUserMessages: [FirstPersonProjectile_C_20] Hello
+[2016.10.11-13.27.06:398][614]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=207.410 Y=-1267.424 Z=304.399] for [FirstPersonProjectile_C]
+[2016.10.11-13.27.07:856][789]LogBlueprintUserMessages: [AICharacter_C_4] 50
+[2016.10.11-13.27.07:856][789]LogBlueprintUserMessages: [FirstPersonProjectile_C_26] Hello
+[2016.10.11-13.27.07:990][805]LogBlueprintUserMessages: [AICharacter_C_4] 0
+[2016.10.11-13.27.07:990][805]LogBlueprintUserMessages: [FirstPersonProjectile_C_27] Hello
+[2016.10.11-13.27.08:140][823]LogBlueprintUserMessages: [AICharacter_C_4] -50
+[2016.10.11-13.27.08:140][823]LogBlueprintUserMessages: [FirstPersonProjectile_C_28] Hello
+[2016.10.11-13.27.08:607][879]LogBlueprintUserMessages: [AICharacter_C_4] -100
+[2016.10.11-13.27.08:607][879]LogBlueprintUserMessages: [FirstPersonProjectile_C_31] Hello
+[2016.10.11-13.27.08:741][895]LogBlueprintUserMessages: [AICharacter_C_4] -150
+[2016.10.11-13.27.08:741][895]LogBlueprintUserMessages: [FirstPersonProjectile_C_32] Hello
+[2016.10.11-13.27.08:750][896]LogBlueprintUserMessages: [AICharacter_C_4] -200
+[2016.10.11-13.27.08:750][896]LogBlueprintUserMessages: [FirstPersonProjectile_C_32] Hello
+[2016.10.11-13.27.09:142][943]LogBlueprintUserMessages: [AICharacter_C_4] -250
+[2016.10.11-13.27.09:142][943]LogBlueprintUserMessages: [FirstPersonProjectile_C_35] Hello
+[2016.10.11-13.27.09:276][959]LogBlueprintUserMessages: [AICharacter_C_4] -300
+[2016.10.11-13.27.09:276][959]LogBlueprintUserMessages: [FirstPersonProjectile_C_36] Hello
+[2016.10.11-13.27.09:703][ 10]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=235.805 Y=-1248.267 Z=312.193] for [FirstPersonProjectile_C]
+[2016.10.11-13.27.11:027][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.27.11:060][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.27.13:797][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.27.13:797][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.27.13:797][482]PIE: New page: PIE session: Test (11 Oct 2016 14:27:13)
+[2016.10.11-13.27.13:797][482]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.27.13:817][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019323s)
+[2016.10.11-13.27.13:817][482]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.27.13:817][482]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2016.10.11-13.27.13:818][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.020297s)
+[2016.10.11-13.27.13:848][482]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.27.13:854][482]LogInit: FAudioDevice initialized.
+[2016.10.11-13.27.13:904][482]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.27.13:909][482]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.27.13
+[2016.10.11-13.27.13:910][482]LogWorld: Bringing up level for play took: 0.004324
+[2016.10.11-13.27.13:911][482]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.574
+[2016.10.11-13.27.13:911][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.27.15:400][656]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.27.15:400][656]LogBlueprintUserMessages: [FirstPersonProjectile_C_0] Hello
+[2016.10.11-13.27.15:792][703]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.27.15:792][703]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Hello
+[2016.10.11-13.27.17:305][881]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-23.145 Y=-1273.684 Z=304.710] for [FirstPersonProjectile_C]
+[2016.10.11-13.27.19:304][121]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.27.19:304][121]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.11-13.27.19:313][122]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-13.27.19:313][122]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Hello
+[2016.10.11-13.27.20:114][218]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=112.415 Y=-1403.682 Z=305.183] for [FirstPersonProjectile_C]
+[2016.10.11-13.27.20:423][255]LogBlueprintUserMessages: [AICharacter_C_1] -50
+[2016.10.11-13.27.20:423][255]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Hello
+[2016.10.11-13.27.20:714][290]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=363.354 Y=-1662.475 Z=302.801] for [FirstPersonProjectile_C]
+[2016.10.11-13.27.21:056][331]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=508.355 Y=-1771.062 Z=302.482] for [FirstPersonProjectile_C]
+[2016.10.11-13.27.22:199][468]LogBlueprintUserMessages: [AICharacter_C_1] -100
+[2016.10.11-13.27.22:199][468]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] Hello
+[2016.10.11-13.27.22:357][487]LogBlueprintUserMessages: [AICharacter_C_1] -150
+[2016.10.11-13.27.22:358][487]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] Hello
+[2016.10.11-13.27.27:831][144]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.11-13.27.27:831][144]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] Hello
+[2016.10.11-13.27.28:172][185]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.11-13.27.28:172][185]LogBlueprintUserMessages: [FirstPersonProjectile_C_23] Hello
+[2016.10.11-13.27.28:322][203]LogBlueprintUserMessages: [AICharacter_C_3] -50
+[2016.10.11-13.27.28:322][203]LogBlueprintUserMessages: [FirstPersonProjectile_C_24] Hello
+[2016.10.11-13.27.28:831][264]LogBlueprintUserMessages: [AICharacter_C_3] -100
+[2016.10.11-13.27.28:831][264]LogBlueprintUserMessages: [FirstPersonProjectile_C_27] Hello
+[2016.10.11-13.27.29:174][305]LogBlueprintUserMessages: [AICharacter_C_3] -150
+[2016.10.11-13.27.29:174][305]LogBlueprintUserMessages: [FirstPersonProjectile_C_28] Hello
+[2016.10.11-13.27.29:340][325]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=423.613 Y=-1436.202 Z=307.922] for [FirstPersonProjectile_C]
+[2016.10.11-13.27.33:189][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.27.33:221][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.28.27:395][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/AICharacter" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset" SILENT=true
+[2016.10.11-13.28.27:770][200]LogSavePackage: Save=362.34ms
+[2016.10.11-13.28.27:770][200]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/AICharacterE64817F9450AE9E3681341B18D243FF5.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset'
+[2016.10.11-13.28.27:771][200]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset
+[2016.10.11-13.28.27:859][201]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Test' took 0.022
+[2016.10.11-13.28.27:860][201]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/AIController] ([1] browsable assets)...
+[2016.10.11-13.28.27:878][201]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/AIController.AIController]
+[2016.10.11-13.28.27:878][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/AIController]
+[2016.10.11-13.28.27:900][201]LogSavePackage: Save=20.62ms
+[2016.10.11-13.28.27:900][201]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/AIController_Auto21483E09E42E9E20CC13714A9D1AE1A9D.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AIController_Auto2.uasset'
+[2016.10.11-13.28.27:900][201]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AIController_Auto2.uasset
+[2016.10.11-13.28.27:900][201]LogFileHelpers: Auto-saving content packages took 0.040
+[2016.10.11-13.30.39:787][884]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.30.39:997][884]BlueprintEditorCompileResults: Info [2494.82] Compile of AICharacter successful! [in 209 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.30.43:167][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.30.43:167][215]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.11-13.30.43:175][215]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2016.10.11-13.30.43:258][215]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (2 blueprints)
+[2016.10.11-13.30.43:260][215]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.10.11-13.30.43:437][215]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (3 blueprints)
+[2016.10.11-13.30.43:441][215]LogPlayLevel: [PlayLevel] Compiling AICharacter before play...
+[2016.10.11-13.30.43:566][215]LogPlayLevel: PlayLevel: Blueprint regeneration took 399 ms (4 blueprints)
+[2016.10.11-13.30.43:567][215]LogPlayLevel: [PlayLevel] Compiling EnemySpawner before play...
+[2016.10.11-13.30.43:645][215]LogPlayLevel: PlayLevel: Blueprint regeneration took 478 ms (5 blueprints)
+[2016.10.11-13.30.43:646][215]LogPlayLevel: [PlayLevel] Compiling FirstPersonGameMode before play...
+[2016.10.11-13.30.43:720][215]LogPlayLevel: PlayLevel: Blueprint regeneration took 553 ms (5 blueprints)
+[2016.10.11-13.30.43:744][215]PIE: New page: PIE session: Test (11 Oct 2016 14:30:43)
+[2016.10.11-13.30.43:744][215]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.30.43:765][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020315s)
+[2016.10.11-13.30.43:765][215]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.30.43:766][215]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2016.10.11-13.30.43:766][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.021410s)
+[2016.10.11-13.30.43:798][215]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.30.43:806][215]LogInit: FAudioDevice initialized.
+[2016.10.11-13.30.43:844][215]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.30.43:849][215]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.30.43
+[2016.10.11-13.30.43:850][215]LogWorld: Bringing up level for play took: 0.004299
+[2016.10.11-13.30.43:851][215]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test 1.366
+[2016.10.11-13.30.43:851][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.30.46:117][459]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.30.46:885][547]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-12.391 Y=-1596.686 Z=305.088] for [FirstPersonProjectile_C]
+[2016.10.11-13.30.47:512][622]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.30.47:713][646]LogBlueprintUserMessages: [AICharacter_C_0] -50
+[2016.10.11-13.30.47:988][679]LogBlueprintUserMessages: [AICharacter_C_0] -100
+[2016.10.11-13.30.51:392][ 87]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=849.122 Y=-1642.024 Z=293.945] for [FirstPersonProjectile_C]
+[2016.10.11-13.30.51:543][105]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=930.208 Y=-1671.125 Z=303.058] for [FirstPersonProjectile_C]
+[2016.10.11-13.30.51:761][131]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.30.51:936][152]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1131.717 Y=-1636.928 Z=312.395] for [FirstPersonProjectile_C]
+[2016.10.11-13.30.52:220][186]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-13.30.52:396][207]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1356.815 Y=-1493.773 Z=315.736] for [FirstPersonProjectile_C]
+[2016.10.11-13.30.56:616][713]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.11-13.30.56:961][754]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.11-13.31.04:021][601]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.11-13.31.04:239][627]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.11-13.31.04:405][647]LogBlueprintUserMessages: [AICharacter_C_3] -50
+[2016.10.11-13.31.04:589][669]LogBlueprintUserMessages: [AICharacter_C_3] -100
+[2016.10.11-13.31.04:765][690]LogBlueprintUserMessages: [AICharacter_C_3] -150
+[2016.10.11-13.31.05:575][787]LogBlueprintUserMessages: [AICharacter_C_3] -200
+[2016.10.11-13.31.05:750][808]LogBlueprintUserMessages: [AICharacter_C_3] -250
+[2016.10.11-13.31.06:227][865]LogBlueprintUserMessages: [AICharacter_C_3] -300
+[2016.10.11-13.31.06:646][915]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1283.969 Y=-85.194 Z=314.167] for [FirstPersonProjectile_C]
+[2016.10.11-13.31.06:797][933]LogBlueprintUserMessages: [AICharacter_C_3] -350
+[2016.10.11-13.31.07:830][ 57]LogBlueprintUserMessages: [AICharacter_C_4] 50
+[2016.10.11-13.31.07:972][ 74]LogBlueprintUserMessages: [AICharacter_C_4] 0
+[2016.10.11-13.31.08:105][ 90]LogBlueprintUserMessages: [AICharacter_C_4] -50
+[2016.10.11-13.31.08:373][122]LogBlueprintUserMessages: [AICharacter_C_4] -100
+[2016.10.11-13.31.08:507][138]LogBlueprintUserMessages: [AICharacter_C_4] -150
+[2016.10.11-13.31.08:516][139]LogBlueprintUserMessages: [AICharacter_C_4] -200
+[2016.10.11-13.31.08:650][155]LogBlueprintUserMessages: [AICharacter_C_4] -250
+[2016.10.11-13.31.09:029][200]LogBlueprintUserMessages: [AICharacter_C_4] -300
+[2016.10.11-13.31.09:145][214]LogBlueprintUserMessages: [AICharacter_C_4] -350
+[2016.10.11-13.31.10:361][360]LogBlueprintUserMessages: [AICharacter_C_5] 50
+[2016.10.11-13.31.10:820][415]LogBlueprintUserMessages: [AICharacter_C_5] 0
+[2016.10.11-13.31.11:104][449]LogBlueprintUserMessages: [AICharacter_C_5] -50
+[2016.10.11-13.31.11:354][479]LogBlueprintUserMessages: [AICharacter_C_5] -100
+[2016.10.11-13.31.11:793][531]LogBlueprintUserMessages: [AICharacter_C_5] -150
+[2016.10.11-13.31.12:336][596]LogBlueprintUserMessages: [AICharacter_C_5] -200
+[2016.10.11-13.31.12:478][613]LogBlueprintUserMessages: [AICharacter_C_5] -250
+[2016.10.11-13.31.12:898][663]LogBlueprintUserMessages: [AICharacter_C_5] -300
+[2016.10.11-13.31.13:047][681]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1186.564 Y=374.082 Z=311.249] for [FirstPersonProjectile_C]
+[2016.10.11-13.31.14:388][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.31.14:423][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.34.07:066][649]BlueprintLog: New page: Compile AICharacter
+[2016.10.11-13.34.07:216][649]BlueprintEditorCompileResults: Info [2702.04] Compile of AICharacter successful! [in 149 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.11-13.34.10:323][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.34.10:323][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.11-13.34.10:324][960]PIE: New page: PIE session: Test (11 Oct 2016 14:34:10)
+[2016.10.11-13.34.10:324][960]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Test
+[2016.10.11-13.34.10:344][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020433s)
+[2016.10.11-13.34.10:345][960]LogAIModule: Creating AISystem for world Test
+[2016.10.11-13.34.10:346][960]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2016.10.11-13.34.10:346][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Test.Test to /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test (0.021643s)
+[2016.10.11-13.34.10:375][960]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.11-13.34.10:382][960]LogInit: FAudioDevice initialized.
+[2016.10.11-13.34.10:418][960]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.11-13.34.10:423][960]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2016.10.11-14.34.10
+[2016.10.11-13.34.10:423][960]LogWorld: Bringing up level for play took: 0.004505
+[2016.10.11-13.34.10:425][960]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Test -0.06
+[2016.10.11-13.34.10:425][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.34.11:441][ 78]LogBlueprintUserMessages: [AICharacter_C_0] 50
+[2016.10.11-13.34.11:699][109]LogBlueprintUserMessages: [AICharacter_C_0] 0
+[2016.10.11-13.34.11:708][110]LogBlueprintUserMessages: [AICharacter_C_0] Destroy the eemey
+[2016.10.11-13.34.13:187][283]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.11-13.34.13:687][343]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.11-13.34.13:688][343]LogBlueprintUserMessages: [AICharacter_C_1] Destroy the eemey
+[2016.10.11-13.34.14:988][499]LogBlueprintUserMessages: [AICharacter_C_2] 50
+[2016.10.11-13.34.15:696][584]LogBlueprintUserMessages: [AICharacter_C_2] 0
+[2016.10.11-13.34.15:697][584]LogBlueprintUserMessages: [AICharacter_C_2] Destroy the eemey
+[2016.10.11-13.34.17:254][771]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.11-13.34.17:666][820]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.11-13.34.17:666][820]LogBlueprintUserMessages: [AICharacter_C_3] Destroy the eemey
+[2016.10.11-13.34.20:358][143]LogBlueprintUserMessages: [AICharacter_C_4] 50
+[2016.10.11-13.34.21:976][337]LogBlueprintUserMessages: [AICharacter_C_5] 50
+[2016.10.11-13.34.22:126][355]LogBlueprintUserMessages: [AICharacter_C_5] 0
+[2016.10.11-13.34.22:127][355]LogBlueprintUserMessages: [AICharacter_C_5] Destroy the eemey
+[2016.10.11-13.34.23:702][544]LogBlueprintUserMessages: [AICharacter_C_6] 50
+[2016.10.11-13.34.23:885][566]LogBlueprintUserMessages: [AICharacter_C_6] 0
+[2016.10.11-13.34.23:886][566]LogBlueprintUserMessages: [AICharacter_C_6] Destroy the eemey
+[2016.10.11-13.34.24:924][690]LogBlueprintUserMessages: [AICharacter_C_7] 50
+[2016.10.11-13.34.25:182][721]LogBlueprintUserMessages: [AICharacter_C_7] 0
+[2016.10.11-13.34.25:183][721]LogBlueprintUserMessages: [AICharacter_C_7] Destroy the eemey
+[2016.10.11-13.34.26:008][820]LogBlueprintUserMessages: [AICharacter_C_8] 50
+[2016.10.11-13.34.26:375][864]LogBlueprintUserMessages: [AICharacter_C_8] 0
+[2016.10.11-13.34.26:376][864]LogBlueprintUserMessages: [AICharacter_C_8] Destroy the eemey
+[2016.10.11-13.34.27:168][959]LogBlueprintUserMessages: [AICharacter_C_9] 50
+[2016.10.11-13.34.27:318][977]LogBlueprintUserMessages: [AICharacter_C_9] 0
+[2016.10.11-13.34.27:319][977]LogBlueprintUserMessages: [AICharacter_C_9] Destroy the eemey
+[2016.10.11-13.34.28:595][130]LogBlueprintUserMessages: [AICharacter_C_10] 50
+[2016.10.11-13.34.28:903][167]LogBlueprintUserMessages: [AICharacter_C_10] 0
+[2016.10.11-13.34.28:904][167]LogBlueprintUserMessages: [AICharacter_C_10] Destroy the eemey
+[2016.10.11-13.34.30:187][321]LogBlueprintUserMessages: [AICharacter_C_11] 50
+[2016.10.11-13.34.30:363][342]LogBlueprintUserMessages: [AICharacter_C_11] 0
+[2016.10.11-13.34.30:363][342]LogBlueprintUserMessages: [AICharacter_C_11] Destroy the eemey
+[2016.10.11-13.34.31:197][442]LogBlueprintUserMessages: [AICharacter_C_12] 50
+[2016.10.11-13.34.31:372][463]LogBlueprintUserMessages: [AICharacter_C_12] 0
+[2016.10.11-13.34.31:373][463]LogBlueprintUserMessages: [AICharacter_C_12] Destroy the eemey
+[2016.10.11-13.34.32:417][588]LogBlueprintUserMessages: [AICharacter_C_13] 50
+[2016.10.11-13.34.32:693][621]LogBlueprintUserMessages: [AICharacter_C_13] 0
+[2016.10.11-13.34.32:694][621]LogBlueprintUserMessages: [AICharacter_C_13] Destroy the eemey
+[2016.10.11-13.34.33:652][736]LogBlueprintUserMessages: [AICharacter_C_14] 50
+[2016.10.11-13.34.33:819][756]LogBlueprintUserMessages: [AICharacter_C_14] 0
+[2016.10.11-13.34.33:819][756]LogBlueprintUserMessages: [AICharacter_C_14] Destroy the eemey
+[2016.10.11-13.34.34:803][874]LogBlueprintUserMessages: [AICharacter_C_15] 50
+[2016.10.11-13.34.34:978][895]LogBlueprintUserMessages: [AICharacter_C_15] 0
+[2016.10.11-13.34.34:989][896]LogBlueprintUserMessages: [AICharacter_C_15] -50
+[2016.10.11-13.34.34:990][896]LogBlueprintUserMessages: [AICharacter_C_15] Destroy the eemey
+[2016.10.11-13.34.36:147][ 35]LogBlueprintUserMessages: [AICharacter_C_16] 50
+[2016.10.11-13.34.36:155][ 36]LogBlueprintUserMessages: [AICharacter_C_16] 0
+[2016.10.11-13.34.36:156][ 36]LogBlueprintUserMessages: [AICharacter_C_16] Destroy the eemey
+[2016.10.11-13.34.37:115][151]LogBlueprintUserMessages: [AICharacter_C_17] 50
+[2016.10.11-13.34.37:123][152]LogBlueprintUserMessages: [AICharacter_C_17] 0
+[2016.10.11-13.34.37:124][152]LogBlueprintUserMessages: [AICharacter_C_17] Destroy the eemey
+[2016.10.11-13.34.38:499][316]LogBlueprintUserMessages: [AICharacter_C_18] 50
+[2016.10.11-13.34.39:157][395]LogBlueprintUserMessages: [AICharacter_C_18] 0
+[2016.10.11-13.34.39:158][395]LogBlueprintUserMessages: [AICharacter_C_18] Destroy the eemey
+[2016.10.11-13.34.40:741][585]LogBlueprintUserMessages: [AICharacter_C_19] 50
+[2016.10.11-13.34.41:501][676]LogBlueprintUserMessages: [AICharacter_C_19] 0
+[2016.10.11-13.34.41:501][676]LogBlueprintUserMessages: [AICharacter_C_19] Destroy the eemey
+[2016.10.11-13.34.42:618][810]LogBlueprintUserMessages: [AICharacter_C_20] 50
+[2016.10.11-13.34.43:059][863]LogBlueprintUserMessages: [AICharacter_C_20] 0
+[2016.10.11-13.34.43:060][863]LogBlueprintUserMessages: [AICharacter_C_20] Destroy the eemey
+[2016.10.11-13.34.44:449][ 29]LogBlueprintUserMessages: [AICharacter_C_21] 50
+[2016.10.11-13.34.44:457][ 30]LogBlueprintUserMessages: [AICharacter_C_21] 0
+[2016.10.11-13.34.44:458][ 30]LogBlueprintUserMessages: [AICharacter_C_21] Destroy the eemey
+[2016.10.11-13.34.45:208][120]LogBlueprintUserMessages: [AICharacter_C_22] 50
+[2016.10.11-13.34.45:809][192]LogBlueprintUserMessages: [AICharacter_C_22] 0
+[2016.10.11-13.34.45:809][192]LogBlueprintUserMessages: [AICharacter_C_22] Destroy the eemey
+[2016.10.11-13.34.46:950][329]LogBlueprintUserMessages: [AICharacter_C_23] 50
+[2016.10.11-13.34.47:213][360]LogBlueprintUserMessages: [AICharacter_C_23] 0
+[2016.10.11-13.34.47:214][360]LogBlueprintUserMessages: [AICharacter_C_23] Destroy the eemey
+[2016.10.11-13.34.48:430][506]LogBlueprintUserMessages: [AICharacter_C_24] 50
+[2016.10.11-13.34.49:139][591]LogBlueprintUserMessages: [AICharacter_C_24] 0
+[2016.10.11-13.34.49:140][591]LogBlueprintUserMessages: [AICharacter_C_24] Destroy the eemey
+[2016.10.11-13.34.50:258][725]LogBlueprintUserMessages: [AICharacter_C_25] 50
+[2016.10.11-13.34.50:266][726]LogBlueprintUserMessages: [AICharacter_C_25] 0
+[2016.10.11-13.34.50:267][726]LogBlueprintUserMessages: [AICharacter_C_25] Destroy the eemey
+[2016.10.11-13.34.51:137][830]LogBlueprintUserMessages: [AICharacter_C_26] 50
+[2016.10.11-13.34.51:446][867]LogBlueprintUserMessages: [AICharacter_C_26] 0
+[2016.10.11-13.34.51:455][868]LogBlueprintUserMessages: [AICharacter_C_26] Destroy the eemey
+[2016.10.11-13.34.52:714][ 19]LogBlueprintUserMessages: [AICharacter_C_27] 50
+[2016.10.11-13.34.53:373][ 98]LogBlueprintUserMessages: [AICharacter_C_27] 0
+[2016.10.11-13.34.53:374][ 98]LogBlueprintUserMessages: [AICharacter_C_27] Destroy the eemey
+[2016.10.11-13.34.55:257][324]LogBlueprintUserMessages: [AICharacter_C_28] 50
+[2016.10.11-13.34.55:432][345]LogBlueprintUserMessages: [AICharacter_C_28] 0
+[2016.10.11-13.34.55:432][345]LogBlueprintUserMessages: [AICharacter_C_28] Destroy the eemey
+[2016.10.11-13.34.55:824][392]LogBlueprintUserMessages: [AICharacter_C_29] 50
+[2016.10.11-13.34.56:333][453]LogBlueprintUserMessages: [AICharacter_C_29] 0
+[2016.10.11-13.34.56:334][453]LogBlueprintUserMessages: [AICharacter_C_29] Destroy the eemey
+[2016.10.11-13.34.57:033][537]LogBlueprintUserMessages: [AICharacter_C_30] 50
+[2016.10.11-13.34.57:359][576]LogBlueprintUserMessages: [AICharacter_C_30] 0
+[2016.10.11-13.34.57:360][576]LogBlueprintUserMessages: [AICharacter_C_30] Destroy the eemey
+[2016.10.11-13.34.58:510][714]LogBlueprintUserMessages: [AICharacter_C_31] 50
+[2016.10.11-13.34.58:669][733]LogBlueprintUserMessages: [AICharacter_C_31] 0
+[2016.10.11-13.34.58:670][733]LogBlueprintUserMessages: [AICharacter_C_31] Destroy the eemey
+[2016.10.11-13.34.59:788][867]LogBlueprintUserMessages: [AICharacter_C_32] 50
+[2016.10.11-13.34.59:930][884]LogBlueprintUserMessages: [AICharacter_C_32] 0
+[2016.10.11-13.34.59:930][884]LogBlueprintUserMessages: [AICharacter_C_32] Destroy the eemey
+[2016.10.11-13.35.00:655][971]LogBlueprintUserMessages: [AICharacter_C_33] 50
+[2016.10.11-13.35.00:805][989]LogBlueprintUserMessages: [AICharacter_C_33] 0
+[2016.10.11-13.35.00:805][989]LogBlueprintUserMessages: [AICharacter_C_33] Destroy the eemey
+[2016.10.11-13.35.01:508][ 72]LogBlueprintUserMessages: [AICharacter_C_34] 50
+[2016.10.11-13.35.01:666][ 91]LogBlueprintUserMessages: [AICharacter_C_34] 0
+[2016.10.11-13.35.01:667][ 91]LogBlueprintUserMessages: [AICharacter_C_34] Destroy the eemey
+[2016.10.11-13.35.02:783][225]LogBlueprintUserMessages: [AICharacter_C_35] 50
+[2016.10.11-13.35.02:942][244]LogBlueprintUserMessages: [AICharacter_C_35] 0
+[2016.10.11-13.35.02:943][244]LogBlueprintUserMessages: [AICharacter_C_35] Destroy the eemey
+[2016.10.11-13.35.03:934][363]LogBlueprintUserMessages: [AICharacter_C_36] 50
+[2016.10.11-13.35.04:061][378]LogBlueprintUserMessages: [AICharacter_C_36] 0
+[2016.10.11-13.35.04:061][378]LogBlueprintUserMessages: [AICharacter_C_36] Destroy the eemey
+[2016.10.11-13.35.05:069][499]LogBlueprintUserMessages: [AICharacter_C_37] 50
+[2016.10.11-13.35.05:195][514]LogBlueprintUserMessages: [AICharacter_C_37] 0
+[2016.10.11-13.35.05:195][514]LogBlueprintUserMessages: [AICharacter_C_37] Destroy the eemey
+[2016.10.11-13.35.06:781][704]LogBlueprintUserMessages: [AICharacter_C_38] 50
+[2016.10.11-13.35.07:082][740]LogBlueprintUserMessages: [AICharacter_C_38] 0
+[2016.10.11-13.35.07:090][741]LogBlueprintUserMessages: [AICharacter_C_38] Destroy the eemey
+[2016.10.11-13.35.08:066][858]LogBlueprintUserMessages: [AICharacter_C_39] 50
+[2016.10.11-13.35.08:075][859]LogBlueprintUserMessages: [AICharacter_C_39] 0
+[2016.10.11-13.35.08:076][859]LogBlueprintUserMessages: [AICharacter_C_39] Destroy the eemey
+[2016.10.11-13.35.08:992][969]LogBlueprintUserMessages: [AICharacter_C_40] 50
+[2016.10.11-13.35.09:158][989]LogBlueprintUserMessages: [AICharacter_C_40] 0
+[2016.10.11-13.35.09:159][989]LogBlueprintUserMessages: [AICharacter_C_40] Destroy the eemey
+[2016.10.11-13.35.10:365][131]LogBlueprintUserMessages: [AICharacter_C_41] 50
+[2016.10.11-13.35.10:515][149]LogBlueprintUserMessages: [AICharacter_C_41] 0
+[2016.10.11-13.35.10:516][149]LogBlueprintUserMessages: [AICharacter_C_41] Destroy the eemey
+[2016.10.11-13.35.11:290][242]LogBlueprintUserMessages: [AICharacter_C_42] 50
+[2016.10.11-13.35.11:423][258]LogBlueprintUserMessages: [AICharacter_C_42] 0
+[2016.10.11-13.35.11:424][258]LogBlueprintUserMessages: [AICharacter_C_42] Destroy the eemey
+[2016.10.11-13.35.13:082][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.35.13:113][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/FirstPersonBP/Maps/Test.Test_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Test.Test:PersistentLevel.Test'
+[2016.10.11-13.35.25:092][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/AICharacter" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset" SILENT=true
+[2016.10.11-13.35.25:198][726]LogSavePackage: Save=99.10ms
+[2016.10.11-13.35.25:198][726]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/AICharacter83B190644B4736F195C02A8AD6C0FE3B.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset'
+[2016.10.11-13.35.25:200][726]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset
+[2016.10.11-13.35.26:607][842]LogSavePackage: Save=29.99ms
+[2016.10.11-13.35.26:607][842]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/FirstPersonProjectile2379AB634B4DB8575684D49D42EF08E3.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2016.10.11-13.35.26:608][842]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2016.10.11-13.35.28:206][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.11-13.35.30:164][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/AIController" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AIController.uasset" SILENT=true
+[2016.10.11-13.35.30:189][ 27]LogSavePackage: Save=24.16ms
+[2016.10.11-13.35.30:189][ 27]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/AIControllerE90D605C4C73741048E61F8900268814.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AIController.uasset'
+[2016.10.11-13.35.30:190][ 27]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Blueprints/AIController.uasset
+[2016.10.11-13.35.30:266][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Test" FILE="D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.10.11-13.35.32:215][ 27]LogSavePackage: Save=1785.77ms
+[2016.10.11-13.35.32:215][ 27]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam/UnrealGameJam/Saved/TestDDE1BDD14548E088B528F7BAE7CF4274.tmp' to 'D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap'
+[2016.10.11-13.35.32:218][ 27]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam/UnrealGameJam/Content/FirstPersonBP/Maps/Test.umap
+[2016.10.11-13.35.32:270][ 27]LogFileHelpers: Saving map 'Test' took 2.077
+[2016.10.11-13.35.32:388][ 27]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.11-13.35.32:602][ 28]Cmd: QUIT_EDITOR
+[2016.10.11-13.35.33:198][ 28]LogExit: Preparing to exit.
+[2016.10.11-13.35.34:091][ 28]LogExit: Editor shut down
+[2016.10.11-13.35.34:092][ 28]LogExit: Transaction tracking system shut down
+[2016.10.11-13.35.34:380][ 28]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.11-13.35.34:381][ 28]LogExit: Object subsystem successfully closed.
+[2016.10.11-13.35.34:415][ 28]LogD3D11RHI: Shutdown
+[2016.10.11-13.35.34:415][ 28]LogD3D11RHI: CleanupD3DDevice
+[2016.10.11-13.35.34:568][ 28]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.11-13.35.34:592][ 28]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.11-13.35.34:592][ 28]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.10.11-13.35.34:592][ 28]LogModuleManager: Shutting down and abandoning module StatsViewer (213)
+[2016.10.11-13.35.34:593][ 28]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (212)
+[2016.10.11-13.35.34:593][ 28]LogModuleManager: Shutting down and abandoning module CrashTracker (211)
+[2016.10.11-13.35.34:593][ 28]LogModuleManager: Shutting down and abandoning module SceneOutliner (210)
+[2016.10.11-13.35.34:593][ 28]LogModuleManager: Shutting down and abandoning module WidgetCarousel (209)
+[2016.10.11-13.35.34:593][ 28]LogModuleManager: Shutting down and abandoning module AddContentDialog (208)
+[2016.10.11-13.35.34:599][ 28]LogModuleManager: Shutting down and abandoning module GameplayTags (207)
+[2016.10.11-13.35.34:599][ 28]LogModuleManager: Shutting down and abandoning module EditorWidgets (206)
+[2016.10.11-13.35.34:599][ 28]LogModuleManager: Shutting down and abandoning module CollectionManager (205)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.11-13.35.34:600][ 28]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.11-13.35.34:601][ 28]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.11-13.35.34:602][ 28]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.11-13.35.34:603][ 28]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.11-13.35.34:604][ 28]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.11-13.35.34:604][ 28]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.11-13.35.34:604][ 28]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.11-13.35.34:604][ 28]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.11-13.35.34:683][ 28]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.11-13.35.34:684][ 28]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.11-13.35.34:684][ 28]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.11-13.35.34:684][ 28]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.11-13.35.34:684][ 28]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.11-13.35.34:684][ 28]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.11-13.35.34:684][ 28]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.11-13.35.34:684][ 28]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.11-13.35.34:685][ 28]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.11-13.35.34:685][ 28]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.11-13.35.34:686][ 28]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.11-13.35.34:686][ 28]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.11-13.35.34:686][ 28]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.11-13.35.34:686][ 28]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.11-13.35.34:686][ 28]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.11-13.35.34:686][ 28]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.11-13.35.34:686][ 28]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.11-13.35.34:730][ 28]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.11-13.35.34:730][ 28]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.11-13.35.34:730][ 28]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.11-13.35.34:730][ 28]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.11-13.35.34:730][ 28]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.11-13.35.34:730][ 28]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.11-13.35.34:730][ 28]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.11-13.35.34:731][ 28]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.11-13.35.34:731][ 28]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.11-13.35.34:731][ 28]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.11-13.35.34:735][ 28]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.11-13.35.34:735][ 28]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.11-13.35.34:735][ 28]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.11-13.35.34:735][ 28]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.11-13.35.34:735][ 28]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.11-13.35.34:735][ 28]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.11-13.35.34:737][ 28]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.11-13.35.34:737][ 28]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.11-13.35.34:737][ 28]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.11-13.35.34:737][ 28]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.11-13.35.34:737][ 28]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.11-13.35.34:737][ 28]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.11-13.35.34:737][ 28]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.11-13.35.34:738][ 28]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.11-13.35.34:738][ 28]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.11-13.35.34:738][ 28]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.11-13.35.34:875][ 28]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.11-13.35.34:875][ 28]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.11-13.35.34:876][ 28]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.11-13.35.34:877][ 28]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.11-13.35.34:877][ 28]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.11-13.35.34:877][ 28]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.11-13.35.34:877][ 28]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.11-13.35.34:877][ 28]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.11-13.35.34:878][ 28]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.11-13.35.34:878][ 28]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.11-13.35.34:878][ 28]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.11-13.35.34:878][ 28]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.11-13.35.34:878][ 28]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.11-13.35.34:878][ 28]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.11-13.35.34:878][ 28]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.11-13.35.34:879][ 28]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.11-13.35.34:879][ 28]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.11-13.35.34:881][ 28]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.11-13.35.34:885][ 28]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.11-13.35.34:885][ 28]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.11-13.35.34:986][ 28]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.11-13.35.34:986][ 28]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.11-13.35.34:986][ 28]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.11-13.35.34:986][ 28]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.11-13.35.34:986][ 28]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.11-13.35.34:986][ 28]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.11-13.35.34:986][ 28]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.11-13.35.34:987][ 28]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.11-13.35.34:989][ 28]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.11-13.35.34:989][ 28]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.11-13.35.34:989][ 28]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.11-13.35.34:996][ 28]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.11-13.35.34:996][ 28]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.11-13.35.34:996][ 28]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.11-13.35.34:996][ 28]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.11-13.35.34:996][ 28]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.11-13.35.34:996][ 28]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.11-13.35.35:005][ 28]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.11-13.35.35:174][ 28]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.11-13.35.35:174][ 28]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.11-13.35.35:174][ 28]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.11-13.35.35:175][ 28]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.11-13.35.35:223][ 28]LogDerivedDataCache: Shutdown
+[2016.10.11-13.35.35:223][ 28]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.11-13.35.35:223][ 28]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.11-13.35.35:224][ 28]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.11-13.35.35:224][ 28]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.11-13.35.35:225][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.11-13.35.35:225][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.11-13.35.35:225][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.11-13.35.35:226][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.11-13.35.35:226][ 28]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.11-13.35.35:226][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.11-13.35.35:226][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.11-13.35.35:226][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.11-13.35.35:226][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.11-13.35.35:227][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.11-13.35.35:227][ 28]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.11-13.35.35:227][ 28]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.11-13.35.35:227][ 28]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.11-13.35.35:227][ 28]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.11-13.35.35:228][ 28]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.11-13.35.35:229][ 28]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.11-13.35.35:229][ 28]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.11-13.35.35:229][ 28]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.11-13.35.35:229][ 28]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.11-13.35.35:229][ 28]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.11-13.35.35:229][ 28]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.11-13.35.35:230][ 28]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.11-13.35.36:733][ 28]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.11-13.35.36:734][ 28]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.11-13.35.36:735][ 28]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.11-13.35.36:735][ 28]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.11-13.35.36:735][ 28]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.11-13.35.36:735][ 28]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.11-13.35.36:735][ 28]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.11-13.35.36:750][ 28]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.11-13.35.36:751][ 28]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.11-13.35.36:755][ 28]LogExit: Exiting.
+[2016.10.11-13.35.36:760][ 28]Log file closed, 10/11/16 14:35:36
